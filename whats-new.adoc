@@ -1,8 +1,14 @@
-= 2026年7月20日
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap' 
+summary: NetApp Console のウェルアーキテクチャダッシュボードの新機能についてご確認ください。 
+---
+= NetApp ConsoleのWell-Architectedダッシュボードの新機能
 :allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
 
-
-permalink: whats-new.html keywords: what's new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap summary: "NetApp ConsoleのWell-Architectedダッシュボードの新機能について説明します。"--- = NetApp ConsoleのWell-Architectedダッシュボードの新機能 :icons: font :imagesdir: ./media/
 
 [role="lead"]
 Workload Factory の Well-architected コンポーネントの新機能についてご確認ください。
@@ -25,8 +31,8 @@ link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architect
 
 コンソールのウェルアーキテクチャダッシュボードは、以下のストレージシステムで利用できます：
 
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-cvo.html["Microsoft Azure における Cloud Volumes ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure における Cloud Volumes ONTAP"]
 
 
 
