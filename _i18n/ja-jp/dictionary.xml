@@ -125,7 +125,6 @@
   <block id="3f13a901b4c6ed36f4bf5c5510e9ed24" category="paragraph">コールドデータ階層化を有効にすると、コールドデータをSSDストレージ階層から低コストのストレージに移動できます。Azure Blob Storage は、非アクティブなデータの容量層として機能します。</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">次の手順</block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link-macro">適切に設計されたCloud Volumes ONTAPシステム構成を実装する</block>
-  <block id="70c25ce13f84b6cf616c5c5393012e5d" category="paragraph"><block ref="70c25ce13f84b6cf616c5c5393012e5d" category="inline-link-macro-rx"></block></block>
   <block id="17971bad5bbff77e668b69daffb7a446" category="summary">Workload Factory は Cloud Volumes ONTAP の構成をスキャンし、運用上の卓越性を達成するためのインサイトと推奨事項を提供します。</block>
   <block id="a5f72f42d4d49e54f3c4c72a4faac290" category="paragraph">構成分析のインサイトと推奨事項を活用して、NetAppを使用し、Microsoft Azureストレージ上で動作するCloud Volumes ONTAPシステムにベストプラクティスを実装します。適切に設計されたシステムの状態を簡単に確認したり、構成上の問題点を把握したり、信頼性、セキュリティ、効率性、パフォーマンス、コストの面で最適化されていないシステムのアーキテクチャを改善するための推奨事項を入手したりできます。</block>
   <block id="2481fd47e889a8c5be960ceeee3fc039" category="inline-link-macro">構成分析とWell-Architectedステータスについて説明します。</block>
@@ -199,7 +198,6 @@
   <block id="934fd3399568391e103ee0d773bf954d" category="list-text">*非アクティブなNASボリューム*</block>
   <block id="ad888b2fc1946f3bc7c47013f4399476" category="paragraph">構成分析では、アクティブに使用されていないNASボリュームを特定し、コスト削減のためにボリュームを削除またはアーカイブすることを推奨します。</block>
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">適切に設計された FSx for ONTAP ファイルシステム構成を実装する</block>
-  <block id="1ee8c065d47cecf380fd9841f303d49a" category="paragraph"><block ref="1ee8c065d47cecf380fd9841f303d49a" category="inline-link-macro-rx"></block></block>
   <block id="79e27ec6fe4e85288757fae779bab815" category="inline-link-macro">操作および修復の権限を付与する</block>
   <block id="357d9dd76af15c8aaf8f09990a2846a9" category="list-text">AWS アカウントで<block ref="6f74e2a9589a6666ba7fdb81dabfc5eb" category="inline-link-macro-rx"></block>する必要があります。</block>
   <block id="a9d8fc136a7c1528e9a5743b9de2661a" category="inline-link-macro">リンクを使用してFSx for ONTAPファイルシステムに接続する</block>
@@ -573,4 +571,6 @@
   <block id="9d10d0bdf93932822ff5bc0f86ac6b28" category="list-text">Well-architected ダッシュボードの *[却下済みの設定]* から。</block>
   <block id="c37e06ff1ab011341411419a0b9135f1" category="summary">NetApp Console のウェルアーキテクチャダッシュボードの新機能についてご確認ください。</block>
   <block id="6fb3d6accfe922bd3fef5d5bed978117" category="doc">NetApp ConsoleのWell-Architectedダッシュボードの新機能</block>
+  <block id="4981d84eaa3fd6ff3264cddba1073588" category="paragraph"><block ref="4981d84eaa3fd6ff3264cddba1073588" category="inline-link-macro-rx"></block></block>
+  <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
 </blocks>
