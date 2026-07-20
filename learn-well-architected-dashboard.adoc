@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: learn-well-architected-dashboard.html 
+keywords: well-architected, best practices, well-architected system, best practices, well-architected framework, well-architected configurations, system management, system optimization, system configuration, system analysis 
+summary: NetApp Console はシステム構成をスキャンして、信頼性、セキュリティ、運用上の卓越性、コスト最適化、およびパフォーマンス効率を評価し、運用上の卓越性の達成に役立つインサイトと推奨事項を提供します。 
+---
+= NetApp Console の適切に設計されたダッシュボードについて学ぶ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Console は、使用するストレージタイプに適した適切に設計されたフレームワークに準拠した、信頼性が高く、安全で、効率的で、対費用効果の高い構成の維持と運用を支援します。適切に設計されたダッシュボードは、アカウントとリージョンを横断した統一的なビューを提供し、チームがリスクを特定して優先順位付けするのに役立ち、特定の要件に応じたカスタムルールをサポートします。ストレージシステムの構成を毎日自動的にスキャンすることで、ストレージ環境を最適化するためのインサイトと推奨事項が得られます。
+
+
+
+[[how-it-works]]
+== 仕組み
+
+NetApp Console は毎日、設定を分析します。この分析により、適切に設計されたステータス、インサイト、および推奨事項が提供されます。
+
+日々の分析が完了すると、構成はデプロイメント用の適切に設計されたダッシュボードに「最適化済み」または「最適化されていない」として表示されます。総合的な最適化スコア、カテゴリ別の設定上の問題点、および設定上の問題点と推奨事項の一覧が表示されます。設定に関する問題については、推奨事項をご確認ください。一部の問題は NetApp Console によって自動的に修正できますが、手動での対応が必要なものもあります。この場合、NetApp Console では、推奨される変更を実装するための詳細な手順が提供されます。
+
+ご自身の環境に適用されない構成の分析は無視することができます。これにより、不要なアラートや不正確な最適化結果を回避できます。特定の構成分析を却下すると、NetApp Console では、その構成は最適化スコアの合計に含まれません。
+
+
+
+[[why-it-matters]]
+== 重要な理由
+
+NetApp Consoleは、継続的な評価と推奨事項、および修復策を組み合わせることで、大規模なストレージ、データベース、およびVMware環境にベストプラクティスを適用します。NetApp Consoleで適用される自動修正により、人的ミスを削減し、統一された管理を確保し、システムインフラストラクチャ全体でパフォーマンスと信頼性を維持します。
+
+
+
+[[supported-storage-systems]]
+== サポートされているストレージシステム
+
+コンソールの適切に設計されたダッシュボードでは、以下のストレージシステムがサポートされています：
+
+* Amazon FSx for NetApp ONTAP
+* Microsoft Azure における Cloud Volumes ONTAP
+
+
+
+
+[[get-started-with-netapp-console-to-detect-and-fix-system-misconfigurations]]
+== システムの設定ミスを検出して修正するための NetApp Console を使い始める
+
+NetApp Console を使い始めるには、サインアップして認証情報を追加し、接続を確立することで、リソースを管理し、システム構成を最適化できます。
+
+link:http://docs.netapp.com/us-en/console-setup-admin/task-quick-start-standard-mode.html["NetApp Console （SaaS アプリケーション）の使用開始ワークフロー"^]
+
+
+
+[[related-information]]
+== 関連情報
+
+* link:fsx/improve-configurations-fsx.html["適切に設計された FSx for ONTAP ファイルシステムを実装する"^]
+* link:cvo/improve-configurations-cvo.html["適切に設計されたCloud Volumes ONTAPシステムを実装する"^]
+

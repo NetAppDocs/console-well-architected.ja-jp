@@ -1,0 +1,42 @@
+---
+indexpage:
+  title: NetApp Console内のWell-architectedダッシュボード
+  summary: NetApp Console は、使用するストレージタイプに適した適切に設計されたフレームワークに準拠した、信頼性が高く、安全で、効率的で、対費用効果の高い構成を維持および運用するのに役立ちます。
+  keywords: amazon, fsx, cloud volumes ontap, microsoft azure, netapp, ontap, well-architected
+    framework, NetApp Console
+  lead: NetApp Console は、ストレージタイプの適切に設計されたフレームワークに準拠した、信頼性が高く、安全で、効率的で、対費用効果の高いストレージ構成の維持を支援します。適切に設計されたダッシュボードは、アカウントとリージョンを横断した統合ビューを提供し、チームがリスクを特定して優先順位付けするのに役立ち、特定の要件に応じたカスタムルールをサポートします。
+  tiles:
+  - title: はじめに
+    links:
+    - title: リリース ノート
+      url: "/whats-new.html"
+    - title: 適切に設計されたダッシュボードについて
+      url: "/learn-well-architected-dashboard.html"
+  - title: 対応製品
+    links:
+    - title: Amazon FSx for NetApp ONTAP
+      url: "/fsx/configuration-analysis-fsx.html"
+    - title: Cloud Volumes ONTAP
+      url: "/cvo/configuration-analysis-cvo.html"
+  - title: 独自のルールを作成する
+    links:
+    - title: カスタムルールについて
+      url: "/learn-custom-rules.html"
+    - title: カスタムルールを作成する
+      url: "/create-custom-rule.html"
+    - title: カスタムルールの管理
+      url: "/manage-custom-rules.html"
+  - title: ナレッジとサポート
+    links:
+    - title: サポートに登録
+      url: "/register-support.html"
+    - title: ヘルプを表示
+      url: "/get-help.html"
+  - title: ブログとコミュニティ
+    links:
+    - title: NetApp Console
+      url: https://www.netapp.com/console
+    - title: NetApp Data Services
+      url: https://www.netapp.com/data-services/
+    - title: NetAppコミュニティ
+      url: https://community.netapp.com/

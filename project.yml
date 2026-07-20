@@ -1,0 +1,48 @@
+---
+settings:
+  name: Well-architected dashboard
+  internal:
+    pdf_enabled: true
+    termcheck_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  release_notes_autogen:
+    release_notes_repo: console-relnotes
+  langs: ja-jp,us-en,de-de,es-es,fr-fr,it-it,pt-br,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: はじめに
+    entries:
+    - title: 新機能
+      url: "/whats-new.html"
+    - title: 適切に設計されたダッシュボードについて
+      url: "/learn-well-architected-dashboard.html"
+  - title: 対応製品
+    entries:
+    - title: Amazon FSx for NetApp ONTAP
+      entries:
+      - title: 構成分析
+        url: "/fsx/configuration-analysis-fsx.html"
+      - title: ファイルシステム構成を改善する
+        url: "/fsx/improve-configurations-fsx.html"
+    - title: Cloud Volumes ONTAP
+      entries:
+      - title: 構成分析
+        url: "/cvo/configuration-analysis-cvo.html"
+      - title: システム構成を改善する
+        url: "/cvo/improve-configurations-cvo.html"
+  - title: 独自のルールを作成する
+    entries:
+    - title: カスタムルールについて
+      url: "/learn-custom-rules.html"
+    - title: カスタムルールを作成する
+      url: "/create-custom-rule.html"
+    - title: カスタムルールの管理
+      url: "/manage-custom-rules.html"
+  - title: 法律上の表示
+    url: "/legal-notices.html"
+product-family:
+  name: NetApp Console
+  repo: console-family
