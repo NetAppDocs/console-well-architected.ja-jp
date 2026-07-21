@@ -1,19 +1,17 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap, microsoft azure' 
 summary: NetApp Console のウェルアーキテクチャダッシュボードの新機能についてご確認ください。 
 ---
-= NetApp ConsoleのWell-Architectedダッシュボードの新機能
+= NetApp Consoleのウェルアーキテクテッドダッシュボードの新機能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-Workload Factory の Well-architected コンポーネントの新機能についてご確認ください。
-
-NetApp Console の Well-Architected ダッシュボードの新機能についてご確認ください。
+NetApp Console のウェルアーキテクチャダッシュボードの新機能についてご確認ください。
 
 
 
@@ -42,4 +40,4 @@ link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architect
 
 システムが組織の標準と NetApp のベストプラクティスに従うように、平易な言葉でカスタムルールを記述します。ドライランでルールをテストしてから、各環境で実行するようにスケジュール設定してください。
 
-https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["カスタムルールについて詳しくはこちらをご覧ください"^]
+https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["カスタムルールについて詳しくはこちらをご覧ください"]

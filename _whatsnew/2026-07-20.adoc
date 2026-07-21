@@ -24,4 +24,4 @@ link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architect
 
 システムが組織の標準と NetApp のベストプラクティスに従うように、平易な言葉でカスタムルールを記述します。ドライランでルールをテストしてから、各環境で実行するようにスケジュール設定してください。
 
-https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["カスタムルールについて詳しくはこちらをご覧ください"^]
+https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["カスタムルールについて詳しくはこちらをご覧ください"]
