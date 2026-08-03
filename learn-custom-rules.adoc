@@ -26,6 +26,9 @@ summary: NetApp のベストプラクティスとともに組織の標準を適�
 カスタムルールは、組織の基準、リスク制限、運用要件などを遵守させるのに役立ちます。これらは、一般的なベンダールールでは十分にカバーできない場合があります。
 
 
+NOTE: アカウント管理者がAI機能を無効にしている場合、ルールビルダーは利用できず、カスタムルールを作成することはできません。link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["AI機能の管理について"^]。
+
+
 
 [[how-custom-rules-work]]
 == カスタムルールの仕組み

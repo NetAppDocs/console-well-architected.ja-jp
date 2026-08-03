@@ -1,22 +1,6 @@
----
-sidebar: sidebar 
-permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap, microsoft azure' 
-summary: NetApp Console のウェルアーキテクチャダッシュボードの新機能についてご確認ください。 
----
-= NetApp Consoleのウェルアーキテクテッドダッシュボードの新機能
+= ウェルアーキテクテッドダッシュボードにおける FSx for ONTAP の構成名を更新しました
 :allow-uri-read: 
-:icons: font
-:imagesdir: ./media/
 
-
-[role="lead"]
-NetApp Console のウェルアーキテクチャダッシュボードの新機能についてご確認ください。
-
-
-
-[[03-august-2026]]
-== 2026年8月3日
 
 
 
@@ -94,32 +78,3 @@ NetApp Console のウェルアーキテクチャダッシュボードで、Cloud
 後で却下した設定を含めたい場合は、ウェルアーキテクテッドダッシュボードで再度有効化できます。これにより、設定が分析に復元され、推奨事項や修正策を取得できるようになります。
 
 link:https://docs.netapp.com/us-en/console-well-architected/cvo/\improve-configurations-cvo.html["Microsoft Azure の Cloud Volumes ONTAP の設定を修正、破棄、および再アクティブ化する"]
-
-
-
-[[20-july-2026]]
-== 2026年7月20日
-
-
-
-[[introducing-the-well-architected-dashboard-in-netapp-console]]
-=== NetApp Console のウェルアーキテクテッドダッシュボードのご紹介
-
-NetApp Console のウェルアーキテクテッドダッシュボードでは、アカウントやリージョンをまたいだストレージシステムと構成を一元的に確認できます。ダッシュボードは、業務効率の向上に役立つインサイトと推奨事項を提供します。構成のウェルアーキテクテッドステータス、使用しているストレージタイプのウェルアーキテクテッドフレームワークの柱ごとに整理された構成上の問題、および構成上の問題と推奨事項のリストを表示できます。
-
-link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["優れた設計のダッシュボード"]の詳細については、こちらをご覧ください。
-
-コンソールのウェルアーキテクチャダッシュボードは、以下のストレージシステムで利用できます：
-
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure における Cloud Volumes ONTAP"]
-
-
-
-
-[[build-your-own-custom-rules]]
-=== 独自のカスタムルールを作成する
-
-システムが組織の標準と NetApp のベストプラクティスに従うように、平易な言葉でカスタムルールを記述します。ドライランでルールをテストしてから、各環境で実行するようにスケジュール設定してください。
-
-https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["カスタムルールについて詳しくはこちらをご覧ください"]

@@ -13,10 +13,12 @@ settings:
   langs: ja-jp,us-en,de-de,es-es,fr-fr,it-it,pt-br,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: はじめに
+  - title: リリース ノート
     entries:
     - title: 新機能
       url: "/whats-new.html"
+  - title: はじめに
+    entries:
     - title: 適切に設計されたダッシュボードについて
       url: "/learn-well-architected-dashboard.html"
   - title: 対応製品

@@ -94,27 +94,17 @@
   <block id="ffd9fc00ab43b8283346c6266e00d684" category="paragraph">適切に設計された分析では、構成をフレームワークの次の柱に分類します：_信頼性_、_セキュリティ_、_運用効率_、_コスト最適化_、および_パフォーマンス効率_。</block>
   <block id="820b8f74ad843d1574106ec4cadfc07e" category="section-title">信頼性</block>
   <block id="32293fdcb7dff0798e6d06da4b108ce6" category="paragraph">信頼性とは、障害が発生した場合でも、ワークロードが意図された機能を正確かつ一貫して実行することを保証するものです。</block>
-  <block id="277088f7a0bc1d2b0023dc08b1d30e37" category="list-text">*ローカルスナップショットのスケジュール設定*</block>
   <block id="ce36269ae95cd0ab7422d78bb843b720" category="paragraph">効率的なバックアップと迅速な復元のために、ローカルスナップショットをスケジュール設定しましょう。スナップショットは、ボリュームの瞬時のポイントインタイムイメージです。</block>
-  <block id="eb995e3e26a9ce43e4cb513af9782398" category="list-text">*SSD容量のしきい値*</block>
   <block id="2fae32629d4ef4fc6341f1751b405e45" category="section-title">セキュリティ</block>
   <block id="7d7265a6929882bb433fc74e8bee871a" category="paragraph">セキュリティは、リスク評価と軽減戦略を通じて、データ、システム、資産を保護することを重視します。</block>
   <block id="d08117d717007eeb4d6273695d9a7725" category="list-text">*AIによる自律型ランサムウェア対策（ARP/AI）*</block>
   <block id="167fce45da752e074139dbfd85f1d96d" category="paragraph">NetApp Autonomous Ransomware Protection with AI（ARP/AI）は、サイバーレジリエンスを強化し、ランサムウェアの脅威からボリュームを保護します。すべてのボリュームでARP/AIを有効にすることをお勧めします。</block>
   <block id="17d2a91a4f3c01de4c2f05b2242e49d3" category="section-title">運用の卓越性</block>
   <block id="84c2d06d655e822b38b222df9c0aa965" category="paragraph">運用上の卓越性とは、最高のアーキテクチャとビジネス価値を提供することに重点を置くものです。</block>
-  <block id="32438b829cdc61174e9727896ad00733" category="list-text">*ボリューム容量使用率のしきい値*</block>
-  <block id="e973d533a0ae133a86d3a32d9c71df3f" category="paragraph">NetApp は、ボリューム容量の使用率が継続的に80%を超えないようにすることを推奨します。これは、アプリケーションへのデータの読み書きに影響を与える可能性があります。ボリューム容量の増加は、手動で行うか、ボリュームの自動拡張機能を使用して自動的に行うことができます。</block>
-  <block id="dea8be5f351d7ba412ea10951c1fe16c" category="list-text">*キャッシュ関係の書き込みモード*</block>
-  <block id="172f50b41b5736d316b29512e1c1cc01" category="list-text">*ONTAPキャッシュボリュームサイズ*</block>
-  <block id="c9eaece9ad2e9f2b182ab193795510eb" category="paragraph">NetApp では、最適なサイズを維持し、キャッシュを頻繁にアクセスされる（ホット）データに集中させて最高の効率を実現するために、キャッシュボリュームのボリュームの自動拡張とスクラビングを有効にすることをお勧めします。</block>
   <block id="7f14df7d96b168d75780c47437a63021" category="list-text">*ONTAPバージョン準拠*</block>
   <block id="3bbb5a399ebdfb8d2d4a8a5c7bafb3fb" category="paragraph">完全な互換性、サポート、および新機能へのアクセスを実現するには、最新バージョンの ONTAP にアップグレードしてください。</block>
   <block id="a39ae09f8be4327fc176cfeb76a0e366" category="section-title">コスト最適化</block>
   <block id="394c926099d3d2cf7e0d7477f17faf38" category="paragraph">コストの最適化により、コストを低く抑えながらビジネスの価値を最大限に高めることができます。</block>
-  <block id="7a9a8f4f357fd479616721650f578eab" category="list-text">*利用されていないSSD容量を特定する*</block>
-  <block id="d8789f9e1c2f22ea67573de6c6a2a782" category="list-text">*データ階層化ポリシー*</block>
-  <block id="3f13a901b4c6ed36f4bf5c5510e9ed24" category="paragraph">コールドデータ階層化を有効にすると、コールドデータをSSDストレージ階層から低コストのストレージに移動できます。Azure Blob Storage は、非アクティブなデータの容量層として機能します。</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">次の手順</block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link-macro">適切に設計されたCloud Volumes ONTAPシステム構成を実装する</block>
   <block id="a5f72f42d4d49e54f3c4c72a4faac290" category="paragraph">構成分析のインサイトと推奨事項を活用して、NetAppを使用し、Microsoft Azureストレージ上で動作するCloud Volumes ONTAPシステムにベストプラクティスを実装します。適切に設計されたシステムの状態を簡単に確認したり、構成上の問題点を把握したり、信頼性、セキュリティ、効率性、パフォーマンス、コストの面で最適化されていないシステムのアーキテクチャを改善するための推奨事項を入手したりできます。</block>
@@ -133,7 +123,6 @@
   <block id="a986c1177dbf821528da387099394568" category="inline-image-macro">ダウンロードアイコンのスクリーンショット</block>
   <block id="12fb11593709031df8791d4256219091" category="paragraph">オプションで、<block ref="c3c5eb7aac1d65e20d3c0a3a1b74a986" category="inline-image-macro-rx" type="image"></block>を選択して、すべての構成に関する推奨事項をCSVファイルでダウンロードします。</block>
   <block id="a1a31d23ff3b3c49f603bdfad41624a7" category="list-text">推奨事項を確認してください。</block>
-  <block id="8f6fc7ab8dca3a508e79c4cddacfe4a7" category="paragraph">システムを最適なパフォーマンスで稼働させるために、設定上の問題を修正してください。</block>
   <block id="56f8181fa25efca14808cd61ff615728" category="doc">Amazon FSx for NetApp ONTAP の構成分析</block>
   <block id="ccfc2060f8f316d0ccd33b0289111a38" category="paragraph">ファイルシステムを完全に分析するには、以下の手順を実行する必要があります。</block>
   <block id="8c696f376388c7710b3ca416a2bc8c23" category="inline-link-macro">NetApp Console エージェントのデプロイ</block>
@@ -142,35 +131,18 @@
   <block id="bf2ef084e923ce6ebc4b57db27892de8" category="inline-link-macro">AWS アカウントに権限を付与する方法を説明します</block>
   <block id="582f3532371a870cf4bd6406f93d26de" category="paragraph"><block ref="582f3532371a870cf4bd6406f93d26de" category="inline-link-macro-rx"></block></block>
   <block id="c6ee17dfa8bb85cfb470ccbc889f031c" category="section-title">ストレージワークロードに関するベストプラクティスと推奨事項</block>
-  <block id="8994ec75ad87cef8edf4cf8eae6b4e4c" category="list-text">*ボリュームバックアップをスケジュールする*</block>
   <block id="3bacc0d1986b203b432f61110667b3d7" category="paragraph">ボリュームのバックアップは、データ保持とコンプライアンスのニーズをサポートするのに役立ちます。ボリュームバックアップを使用して、データの自動バックアップと保持を設定します。</block>
   <block id="b34347ddf6e48f7eb5aee09d6f7b92a6" category="list-text">*リージョン間レプリケーション*</block>
-  <block id="1efec9308ce64129e1db77dd8baa679c" category="list-text">*データレプリケーションの設定*</block>
-  <block id="4776b32ae8a508cea6dc14786e7b1d3f" category="list-text">*SSD容量のしきい値を上げる*</block>
-  <block id="52dcb980883fc7c1570f6f9c4c6e4f47" category="list-text">*データの信頼性を確保するためにラベルを一致させる*</block>
   <block id="6b684c41f8808f2d21748ed56ee909d7" category="paragraph">データの信頼性を確保するためには、ソースボリュームのSnapshotポリシーラベルとレプリケーションポリシーラベルが一致している必要があります。</block>
-  <block id="ec75a1c7b766068775fc7894ddaf83e4" category="list-text">*ファイル容量のしきい値を上げる*</block>
-  <block id="6b164cf17f1cd008f12b094341cb3264" category="list-text">*ARP/AIを有効にする*</block>
   <block id="3c93b584a7552b941c7752fec865d7f1" category="paragraph">NetApp Autonomous Ransomware Protection with AI（ARP/AI）は、ボリュームをランサムウェアの脅威から保護するのに役立ちます。Workload Factory では、すべてのボリュームに対して ARP/AI を有効にすることをお勧めします。</block>
-  <block id="1218a704bef91508c259c867ba832d76" category="list-text">*ボリュームへの不正アクセス*</block>
   <block id="5f11ab37407484ede3169d7e37c9e28b" category="paragraph">iSCSIを使用してアプリケーションデータを提供するボリュームは、同時にNASアクセスを許可すべきではありません。Workload Factoryは、iSCSIボリュームが他のプロトコルを使用しないよう制限することを推奨します。</block>
   <block id="aae272278ce139a51849ab88adc7d597" category="paragraph">運用上の卓越性とは、最適なアーキテクチャとビジネス価値を提供することに重点を置くものです。</block>
-  <block id="2e8c868875c81824742ded82e0ff9518" category="list-text">*自動容量管理を有効にする*</block>
   <block id="c2af0d35add26707ebd7d7030d750beb" category="paragraph">SSD 階層がしきい値を超えないように定期的に確保するには、自動容量管理を有効にする必要があります。</block>
-  <block id="900f4b8178b38a2b7075005f38bd4a08" category="list-text">*ボリューム使用率がほぼ満杯です*</block>
-  <block id="1771306e58ae20ceab27a04d0b17adcd" category="paragraph">ボリュームの容量がほぼ満杯に近づいた場合、NetApp Workload Factoryは、アプリケーションの潜在的な中断を回避するために、ボリューム容量を増やすための対策を講じることを推奨します。</block>
   <block id="a58ce95d0ee8f9d592643a6f31d60878" category="paragraph">最適なパフォーマンスを実現するために、Workload Factoryはワークロードに最適なキャッシュ関係書き込みモードを推奨します。ライトアラウンドモードは、小さなファイルを扱う読み込み中心のワークロードにおいて優れたパフォーマンスを発揮する一方、ライトバックモードは、大きなファイルを扱う書き込み中心のワークロードにおいて優れたパフォーマンスを発揮します。</block>
-  <block id="3a3b30a3337caa5b953626eb873e3e6b" category="list-text">*キャッシュボリュームのサイズを最適化*</block>
   <block id="3f8b3943fba700ffad94c47ef4638509" category="paragraph">Workload Factory では、最適なサイズを維持し、ホットデータにキャッシュを集中させて効率を最大限に高めるために、ボリュームの自動サイズ調整とキャッシュボリュームのスクラブを有効にすることを推奨しています。</block>
-  <block id="a49bf929860657a29ec7b321ff7a63ba" category="list-text">*Storage VM論理レポート*</block>
-  <block id="7edda8ec9be79d47927f4aa7e27bd776" category="paragraph">Workload Factory では、ボリュームレベルでのストレージ使用状況をより適切に把握できるように、ストレージ VM のデフォルトのレポート設定を論理に設定することをお勧めします。</block>
-  <block id="ff879d0ae47ba423426718c1437f43bc" category="list-text">*コールドデータを階層化することでTCOを最適化*</block>
-  <block id="7cee9f2699d966625a5743c41334d168" category="list-text">*ストレージ効率を有効にする*</block>
   <block id="a97dffed0cf7eab28dd24e64546425b8" category="paragraph">ストレージ効率化機能（コンパクション、圧縮、重複排除）を有効にすることで、ストレージ利用率を最適化し、SSDティアのコストを削減します。</block>
-  <block id="fed8dca8f704b8520ccccb85704d4336" category="list-text">*不要なスナップショットおよびバックアップの削除*</block>
   <block id="c359614024935abd3712075452782fa3" category="list-text">*非アクティブなブロックデバイス*</block>
   <block id="934ae55c0ac8033312b0dd4fc00ad677" category="paragraph">ブロックデバイスが7日間使用されなかった場合、Workload Factoryはブロックデバイスデータをアーカイブするか、未使用のブロックデバイスを削除してコストを削減することを推奨します。</block>
-  <block id="f915580ac605b8302594b2e8b9e200c4" category="list-text">*SSD容量の使用率が低い*</block>
   <block id="934fd3399568391e103ee0d773bf954d" category="list-text">*非アクティブなNASボリューム*</block>
   <block id="ad888b2fc1946f3bc7c47013f4399476" category="paragraph">構成分析では、アクティブに使用されていないNASボリュームを特定し、コスト削減のためにボリュームを削除またはアーカイブすることを推奨します。</block>
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">適切に設計された FSx for ONTAP ファイルシステム構成を実装する</block>
@@ -393,7 +365,6 @@
   <block id="9e2e4a6d40890d391147ee63c83e4ebf" category="list-text">ルール一覧で、確認したいルールをクリックします。</block>
   <block id="2d6751ce25ede21d2492997ddca98b45" category="list-text">「すべての実行結果」タブを選択します。</block>
   <block id="f4e2484ce7f636995f87d4460bb472cf" category="list-text">各実行の結果を確認するには、**「詳細を表示」**を選択してください。</block>
-  <block id="1e1d7fe345b85c5ca8f56429f339869c" category="paragraph">一部の項目でチェックが失敗した場合は、エラーメッセージを読んで理由を確認してください。よくある原因としては、接続の問題、権限の不足、またはリンク／コネクタが設定されていないことなどが挙げられます。</block>
   <block id="8c5fb02c595607ff2d6a7bffe64be464" category="section-title">ルールを一時停止する</block>
   <block id="ad91e5fff3b8c62296713afbb3628a85" category="paragraph">ルールを削除せずに評価を停止するには、ルールを一時停止します。一時停止されたルールはカタログに残り、いつでも再開できます。</block>
   <block id="6128c344ce68ca2256885ace5b47ff93" category="list-text">ルール一覧で、一時停止したいルールをクリックします。</block>
@@ -422,7 +393,6 @@
   <block id="729ff93b396b672d12011be075fa41c4" category="list-text">評価が完了しませんでした。一般的な原因としては、AWS 認証情報のエラー、ネットワーク接続の問題、または ONTAP 権限の問題が挙げられます。</block>
   <block id="78c94c654440e39e298ee7b003ea0c22" category="paragraph">ルールが繰り返し失敗するか、部分的にしか成功しない場合は、以下を確認してください。</block>
   <block id="aa6ee29156e1ff679f21f8af41a72ab7" category="list-text">AWS認証情報は、すべてのリソースに対して読み取り専用アクセス権限を持ちます。</block>
-  <block id="82ffeaea6f26c09775db3df15338abf4" category="list-text">対象となるすべてのファイルシステムに対して、リンクとコネクタが構成されています。</block>
   <block id="83391d1cdfce4d8cbed45dc698dedc6e" category="list-text">FSx for ONTAP ビューアユーザーには適切な権限があります。</block>
   <block id="cc04bd1e4cca8a5b4e87672f588bf490" category="paragraph"><block ref="cc04bd1e4cca8a5b4e87672f588bf490" category="inline-link-macro-rx"></block></block>
   <block id="df3d826b639dd614f0fae940d9ebee78" category="summary">NetApp テクニカルサポートでサポートケースを開く前に、NetApp Support Site アカウントを NetApp Console に追加し、サポートに登録する必要があります。</block>
@@ -519,7 +489,6 @@
   <block id="5b95edeaec9232eb644ac94feb361070" category="list-text"><block ref="516166149f9d9ca9d6d999bf3220e78e" category="inline-link-macro-rx"></block>または<block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block>を使用して、ファイルシステムリソースの最も包括的な分析を行います。</block>
   <block id="4411c3b68fd3c93bc7694b361cc21eaf" category="paragraph">推奨事項を注意深く確認してください。この推奨事項では、ベストプラクティスと最適化されていない設定における潜在的な問題点について説明しています。</block>
   <block id="c37e06ff1ab011341411419a0b9135f1" category="summary">NetApp Console のウェルアーキテクチャダッシュボードの新機能についてご確認ください。</block>
-  <block id="4981d84eaa3fd6ff3264cddba1073588" category="paragraph"><block ref="4981d84eaa3fd6ff3264cddba1073588" category="inline-link-macro-rx"></block></block>
   <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
   <block id="011f9504247c9cd1298e36479592feba" category="summary">NetApp Console のウェルアーキテクチャダッシュボードは、Cloud Volumes ONTAP システムの構成を毎日分析し、構成上の問題がないかどうかを確認します。</block>
@@ -527,9 +496,6 @@
   <block id="ed3de084ebd57dfb5d10d8d07d5ff7c2" category="paragraph">完全な Cloud Volumes ONTAP システム分析を行うには、システムと NetApp Console 間の接続を設定するために <block ref="19a2c83f86e8c849ea6629f601093445" category="inline-link-macro-rx"></block> する必要があります。</block>
   <block id="df022fa81268ad87abe9b34e29e60ea4" category="paragraph">適切に設計されたダッシュボードは、ストレージ構成を評価し、ONTAP 構成のベストプラクティスおよび Azure Well-Architected Framework への準拠に関する詳細なビューを提供します。この評価では、改善点や修正点も推奨しています。</block>
   <block id="f52eaa2b01823c61afb346f01ff37aec" category="paragraph">信頼性とは、障害発生時であっても、ワークロードが意図された機能を正確かつ一貫して実行することを保証するものです。</block>
-  <block id="5e4a737b303d3a3939eb4537aca01c87" category="paragraph">SSDストレージ層の容量は、継続的に使用率が80%を超えないようにしてください。このしきい値を超えると、スループットが低下したり、データボリュームが読み取り専用になったり、書き込み操作が失敗したりする可能性があります。</block>
-  <block id="164f1fe3d78ea23dbd1a73e77dc30653" category="paragraph">最適なパフォーマンスを実現するために、NetApp はワークロードに最適なキャッシュ関係の書き込みモードを推奨します。ライトアラウンドモードは、小さなファイルを扱う読み込み中心のワークロードにおいて優れたパフォーマンスを発揮し、ライトバックモードは、大きなファイルを扱う書き込み中心のワークロードにおいて優れたパフォーマンスを発揮します。</block>
-  <block id="88d49e924d44f746e9c3f5abf877e55e" category="paragraph">SSDの容量が十分に活用されていないと、不必要なコストが発生する可能性があります。NetAppは、現在使用している容量より20%高い空き容量バッファを維持しながら、SSDティアの容量を削減することを推奨します。削減操作には数時間から数日かかる場合があり、その間は他のシステム操作はサポートされません。</block>
   <block id="2b4d9723a34936112e4a4945c03eafb0" category="summary">ウェルアーキテクチャダッシュボードは、Cloud Volumes ONTAP の構成をスキャンし、運用上の卓越性を達成するためのインサイトと推奨事項を提供します。</block>
   <block id="d1ba3c7d12e9fa88a8e12a675029080d" category="paragraph">ウェルアーキテクチャダッシュボードは、Microsoft Azure 上の Cloud Volumes ONTAP システムの展開構成を毎日分析します。日々の分析により、ウェルアーキテクチャのステータス、インサイト、および推奨事項が提供されます。</block>
   <block id="8939d3be821890ad665739df92be085d" category="paragraph">リンクまたはコンソールエージェントの接続により、NetApp Console の適切に設計されたダッシュボードが、パフォーマンス、データ保護、および構成に関する問題について Cloud Volumes ONTAP システムの包括的なスキャンを完了できます。これにより、Cloud Volumes ONTAP システムの最適化に向けた正確なインサイトと推奨事項を受け取ることができます。</block>
@@ -539,13 +505,9 @@
   <block id="3ce760239f38234fc2c8c277efe0bd25" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block>または<block ref="a06f2f34fedf48ea46300ba646899766" category="inline-link-macro-rx"></block>を使用して、ファイルシステムとNetApp Console間の接続を設定します。</block>
   <block id="782a430d789ff1db80e40fbe9c0be819" category="paragraph">適切に設計されたダッシュボードは、ストレージ構成をONTAPのベストプラクティスおよびAWS Well-Architected Frameworkに照らして評価します。この評価では、改善点や修正点も推奨しています。</block>
   <block id="fb0db5246d7e15caadfb931bef38413c" category="paragraph">リージョン間レプリケーションにより、データが別のAWSリージョンに複製されるため、データの耐久性と可用性が向上します。災害復旧とコンプライアンスをサポートするために、リージョン間レプリケーションを設定します。</block>
-  <block id="d66064a70712979bb0d8d042862a4bb8" category="paragraph">データの信頼性を高めるために、同一リージョンまたは別のリージョンにある FSx for ONTAP ファイルシステムにデータをレプリケートします。ファイルシステム間での移行、ディザスタリカバリ、および長期保存をサポートするために、データレプリケーションを設定します。</block>
   <block id="5a0e6732f4b279b7f8151534487bbe55" category="paragraph">SSDストレージ層の容量は、使用率が80%を超えないようにしてください。これは、キャパシティプールストレージ層へのデータの読み書きに影響を与え、ファイルシステムのスループット容量にも影響を与える可能性があります。容量が不足すると、データボリュームは読み取り専用になります。新しいデータを書き込もうとするサービスも失敗します。</block>
   <block id="9782f948325708f7c9a12b48ab18675e" category="paragraph">ボリューム容量制限に達しないように、ファイル容量のしきい値を引き上げるべきです。ファイル容量（iノード）が不足しているため、ボリュームへの追加データの書き込みができません。Workload Factoryは、新規ファイルの作成を可能にするため、ファイル容量の使用率を80%未満に維持することを推奨しています。</block>
   <block id="358a04c23a2e8b7a739dbfc478ae8427" category="paragraph">Workload Factoryは、ボリューム容量の利用率が80%を超えないようにすることを推奨しています。これは、アプリケーションへのデータの読み書きに影響を与える可能性があります。ボリューム容量の増加は、ボリュームの自動拡張機能を使用して手動または自動で行うことができます。</block>
-  <block id="92e1f2c8148081be697b1fcd43f3c042" category="paragraph">SSDストレージ階層の利用率を削減するために、コールドデータ階層化を有効にしてください。Workload Factoryは、すべてのボリュームに階層化ポリシーを適用することを推奨しています。FSx for ONTAPは、データを継続的にスキャンしてコールドデータを検出し、中断することなくキャパシティプール層に移動します。</block>
-  <block id="88cf1998ed9b446c340be12e0a63b4bf" category="paragraph">コスト削減のため、不要になったスナップショットやバックアップを削除してください。</block>
-  <block id="9fe3c6af0b209b829dedbd6205c7c514" category="paragraph">利用率の低いSSD容量層は、不要なコスト増につながります。Workload Factoryは、SSDティアの容量を削減しつつ、20%の空き容量バッファを維持することを推奨しています。縮小操作には数時間から数日かかり、その間は他のファイルシステム操作はサポートされません。</block>
   <block id="cdbdf3ae7b11d60e8f117000f407abdd" category="summary">ウェルアーキテクチャダッシュボードは、Amazon FSx for NetApp ONTAP の構成をスキャンし、運用上の卓越性を達成するためのインサイトと推奨事項を提供します。</block>
   <block id="994563f8c4fb5e35f528265f7b5eb386" category="paragraph">構成分析のインサイトと推奨事項を活用して、NetApp を使用し、FSx for ONTAP ファイルシステムのベストプラクティスを実装します。適切に設計されたシステムの状態を簡単に確認したり、構成上の問題点を把握したり、信頼性、セキュリティ、効率性、パフォーマンス、コストの面で最適化されていないシステムのアーキテクチャを改善するための対策を講じたりすることができます。</block>
   <block id="bca076b9764e88630a27e6313a438554" category="paragraph"><block ref="bca076b9764e88630a27e6313a438554" category="inline-link-macro-rx"></block></block>
@@ -565,4 +527,111 @@
   <block id="edd854bc8fa69e282718b3a59e15995a" category="doc">NetApp Consoleのウェルアーキテクテッドダッシュボードの新機能</block>
   <block id="e934f48b300109b5939d0cbed21d591e" category="sidebar">NetApp Console のよく設計されたダッシュボードは、ストレージタイプのよく設計されたフレームワークに準拠した、信頼性が高く、安全で、効率的で、対費用効果の高いストレージ構成を維持するのに役立ちます。よく設計されたダッシュボードは、アカウントとリージョンにわたる統合ビューを提供し、チームがリスクを特定して優先順位を付けるのに役立ち、特定の要件に対応するカスタムルールをサポートします。</block>
   <block id="bba0cbb6b2f0c8891673b3856f926b83" category="sidebar">NetApp Console のウェルアーキテクテッドダッシュボードは、使用するストレージタイプのウェルアーキテクテッドフレームワークに準拠した、信頼性が高く、安全で、効率的で、対費用効果の高い構成を維持・運用するのに役立ちます。</block>
+  <block id="790f31a1565b039a710f1ff6cd60e24a" category="list-text">ボリュームバックアップ</block>
+  <block id="ca512a483bb26b1b253abc6b2cc463bd" category="list-text">*Snapshotポリシー*</block>
+  <block id="6c9fff12a469dffc950e974a95a7b4a4" category="paragraph">効率的なバックアップと迅速なリストアのために、ローカルSnapshotをスケジュール設定してください。Snapshotは、ボリュームのポイントインタイムイメージを瞬時に作成します。この推奨事項はデータベース環境には適用されません。</block>
+  <block id="4e3fbfcdffe2becd73a5b796de048459" category="list-text">*アプリケーション整合性Snapshot*</block>
+  <block id="8f1e17436bf3a87fccd5f9e6d1ed851e" category="paragraph">データベース環境では、NetApp SnapCenter のアプリケーション整合性スナップショットを使用して、特定のポイントインタイムにおけるボリュームデータの正確で信頼性の高いスナップショットを取得します。これにより、アプリがスムーズに動作し、データが安全に保たれます。SnapCenter はバックアップを容易にし、データの迅速かつ正確な復元を支援することで、ダウンタイムを削減し、最も重要なワークロードを保護します。</block>
+  <block id="e5cdf4f9c0dda596826a91093d4f69f4" category="list-text">*SSDキャパシティのヘッドルーム*</block>
+  <block id="92c441b22ff16ef5515f94eb674b75dd" category="list-text">*レプリケーションポリシーラベル*</block>
+  <block id="4fa20133576020963cd240328e1cfe1e" category="list-text">ファイルオブジェクト容量</block>
+  <block id="dca1fa637808ac114bc3c64902363958" category="list-text">*ランサムウェア対策（ARP/AI）*</block>
+  <block id="737910df50d01fa50997f65a5db71736" category="list-text">*不正なiSCSIボリュームアクセス*</block>
+  <block id="ac6bba07ba0bbbb40281e6088f214af7" category="list-text">*自動容量管理*</block>
+  <block id="bca05dfe73df2536775bb543bb367fb6" category="list-text">*ボリューム容量のヘッドルーム*</block>
+  <block id="cb24245fc7fbb951739f0e037e8ed58f" category="list-text">*FlexCache 書き込みモード*</block>
+  <block id="199b5a17e840b5e8165065942a5aba7f" category="list-text">*FlexCacheレプリカサイズ*</block>
+  <block id="9df3c9bccd6a766926fdecf9723bee25" category="list-text">*ホストから見える容量レポート*</block>
+  <block id="ac6d1e17d25eaeb65d82b152dfdb57bf" category="paragraph">Workload Factoryは、ボリュームレベルでのストレージ使用状況をより詳細に把握するために、ホストから見える容量レポートを有効にすることを推奨します。</block>
+  <block id="47d22e8e629e843266ec7435ff742bbb" category="list-text">*オペレーティングシステム（OS）の種類*</block>
+  <block id="5247b145ee65edc273dfc76802aa954d" category="paragraph">Workload Factory では、I/O アライメントを実現するために、ONTAP LUN のオペレーティングシステム（OS）タイプの値がオペレーティングシステムのパーティショニング方式と一致していることを確認することを推奨します。設定が正しくない場合、パフォーマンスが低下する可能性があります。</block>
+  <block id="6297d4b1adbdb3df46577f46811017d6" category="list-text">*ブロックデバイスの領域管理*</block>
+  <block id="0b3d1dbc35ccab38207b2110ee154a08" category="paragraph">Workload Factory は、書き込みエラーを防止し、FSx for ONTAP のスペース効率を向上させるために、データベースホストインスタンスで使用される LUN のブロックデバイススペース設定を構成することを推奨しています。この構成は、シンプロビジョニングボリュームに推奨される設定の組み合わせ（スペース リザベーション、スペース割り当て、およびフラクショナルリザーブ）に適用されます。</block>
+  <block id="03d17de0352cae761e78b42715347870" category="list-text">*シンプロビジョニング*</block>
+  <block id="a276a4d3d1bb6ff49ba0c75013f6c037" category="paragraph">Workload Factory では、データベースインスタンスをホストする FSx for ONTAP ボリュームにシンプロビジョニングを設定することを推奨しています。このアプローチにより、物理的に使用可能な容量よりも多くの論理データを格納できます。</block>
+  <block id="01fd10a8e7ac161e328da4eaf6292046" category="list-text">*コールドデータ階層化*</block>
+  <block id="a5005a71aac05b88dbddcbb021b30d0a" category="paragraph">SSDストレージ階層の利用率を削減するために、コールドデータ階層化を有効にしてください。Workload Factoryは、一般的なデータストレージを目的としたすべてのボリュームに階層化ポリシーを適用することを推奨しています。データベースボリュームについては、必要に応じてコールドデータ階層化を有効にすることをお勧めします。FSx for ONTAPはデータを継続的にスキャンしてコールドデータを検出し、中断することなくキャパシティプール層に移動します。</block>
+  <block id="1642a3ac22d754ea2e3215648c2ca8a7" category="list-text">*ストレージ効率*</block>
+  <block id="4839729f2857a14e606b9472d85de0c1" category="list-text">*バックアップの有効期限*</block>
+  <block id="2d6228f6728e6cfbec7d7d819f3dc6bd" category="paragraph">Workload Factoryは、削除されたボリュームに対して手動で作成されたバックアップ、および2週間以上前のバックアップをすべて削除することを推奨します。これらのバックアップは自動的に期限切れにならず、SLAや復旧のために不要になった場合でも、コストが増加したり、複雑さが増したりする可能性があります。</block>
+  <block id="1404f94ec501f39118a91965272f695e" category="list-text">*Snapshotの有効期限*</block>
+  <block id="78820863b97d15c8f341065e658e9150" category="paragraph">Workload Factoryは、不要になった古いスナップショットや手動で作成したスナップショットを削除することを推奨しています。それらを削除することで、コストを削減し、整理整頓につながります。特に、SLAや復旧ニーズに必要でない場合はなおさらです。</block>
+  <block id="8611faa768b220ecb3795c6fda54fdaa" category="list-text">*SSD容量のオーバープロビジョニング*</block>
+  <block id="5d6d944edf403daafeea5a5aeb5e3f87" category="paragraph">過剰にプロビジョニングされたSSD容量階層は、不要なコストを増加させます。Workload Factoryは、20%の空き容量バッファを維持しながらSSD階層の容量を削減することを推奨しています。縮小操作には数時間から数日かかり、その間は他のファイルシステム操作はサポートされません。</block>
+  <block id="8722112d28d6eea0aff9478fb61c5de7" category="section-title">パフォーマンス効率</block>
+  <block id="62d0d3849cddbcf3cccae74f05719854" category="paragraph">パフォーマンス効率を高めることで、ストレージリソースが効果的に使用され、ワークロードが最適なパフォーマンスを発揮することを確認できます。</block>
+  <block id="fbb48f4d1a3f9488b40b10d1cb8a50bd" category="list-text">*FlexGroupボリュームの再調整*</block>
+  <block id="a1ff290ebc3ad774d64f34c9530729c0" category="paragraph">Workload Factory は、効率を向上させるために FlexGroup ボリュームのリバランスを推奨します。スケールアウト後、容量とワークロードのアクティビティがボリューム全体で不均一になる可能性があります。</block>
+  <block id="ed1fc69039bbd36676c2e04fb15f5d02" category="list-text">*FlexVolボリュームの再調整*</block>
+  <block id="d594538bbec3297430ed8c995b262222" category="paragraph">Workload Factory は、効率を向上させるために FlexVol ボリュームのリバランスを推奨します。スケールアウト後、容量とワークロードのアクティビティがボリューム全体で不均一になる可能性があります。</block>
+  <block id="874fbc8635967fd5300d05269c50cea0" category="paragraph">Workload Factoryは、サポートされているクラウドストレージシステム上で実行されているワークロードを毎日分析します。この分析により、適切に設計されたステータス、インサイト、および推奨事項が提供されます。</block>
+  <block id="27b3ab8a4b26cd2ee311ee2ac5911ba3" category="paragraph">日々の分析が完了すると、デプロイメントのWell-architectedダッシュボードに、構成が「最適化済み」または「最適化されていない」として表示されます。設定に関する問題はカテゴリ別に整理されており、設定に関する問題とその推奨事項の一覧も掲載されています。設定に関する問題については、推奨事項をご確認ください。一部の問題はWorkload Factoryによって自動的に解決されますが、その他の問題は手動での対応が必要です。この場合、Workload Factoryは、推奨される変更を実装するのに役立つ詳細な手順を提供します。</block>
+  <block id="1fab3ff575faec37f5f5855ba6c44e9b" category="paragraph">ご自身の環境に適用されない構成の分析を無視することができます。これにより、不要なアラートや不正確な最適化結果を回避できます。特定の構成分析を無視すると、Workload Factory ではその構成が全体の最適化スコアに含められません。</block>
+  <block id="c2bf4ab5c816a6a7be03384125f4a5d6" category="paragraph">Workload Factoryは、継続的な評価と推奨事項、および修復策を組み合わせることで、大規模なストレージ、データベース、およびVMware環境にベストプラクティスを適用します。NetApp Consoleで適用された自動修正により、人的ミスを削減し、統一された管理を確保し、ワークロードインフラストラクチャ全体でパフォーマンスと信頼性を維持します。</block>
+  <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">ウェルアーキテクテッドダッシュボードにおける FSx for ONTAP の構成名を更新しました</block>
+  <block id="032088baae45e30e8391672094b24e52" category="paragraph">NetApp Console のウェルアーキテクチャダッシュボードに、FSx for ONTAP のストレージ構成名が更新され、明確さと一貫性が向上しました。</block>
+  <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">以下の表は、Well-Architectedダッシュボードにおける旧構成名と、それに対応する新構成名の一覧です。</block>
+  <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">古い設定名</block>
+  <block id="12d6467c8f43573f715aed485545d3e9" category="cell">新しい構成名</block>
+  <block id="903362563951f197b003dcc5e085f6af" category="cell">ボリュームバックアップのスケジュール設定</block>
+  <block id="236cb64067292409b71f3255e98656ec" category="cell">ボリュームバックアップ</block>
+  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="cell">SSD容量のしきい値</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="cell">SSDの容量余裕</block>
+  <block id="33b83fba92abc7b8587ce85f370cccd9" category="cell">ファイル容量のしきい値</block>
+  <block id="15163a77b6307ce8f1d8bd1cbf7a6cd4" category="cell">ファイル容量のヘッドルーム</block>
+  <block id="9bc968c7a7fb78050d3076a90e4467f3" category="cell">長期保存データの信頼性</block>
+  <block id="f9f9d1f00c978cfa77ad3dcbff84556f" category="cell">レプリケーションポリシーラベル</block>
+  <block id="aff279b636a9024db3b44375d88e80eb" category="cell">ローカルスナップショットのスケジュール設定</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="cell">Snapshot ポリシー</block>
+  <block id="1fd07c2c7cd7507d0210720bf2df7ff6" category="cell">不要なバックアップを削除する</block>
+  <block id="01cbe155039c742db3896b9035645b36" category="cell">バックアップの有効期限</block>
+  <block id="550b0142e01d6b38f02a6b97265b556f" category="cell">不要なスナップショットを削除する</block>
+  <block id="d84a194032e3c50774cb6b396ce9dc40" category="cell">スナップショットの有効期限</block>
+  <block id="d7caefb46c5a6173b05919091553daa7" category="cell">SSDの未使用容量</block>
+  <block id="f2be0a28c695a5089b4046f22076c338" category="cell">オーバープロビジョニングされたSSD容量</block>
+  <block id="dd1488cd022a3092a136ebc9da3e9fe7" category="cell">非アクティブなブロックデバイス</block>
+  <block id="1951894078f3de8ca78fd73263ce1157" category="cell">非アクティブなブロックデバイス（LUN）</block>
+  <block id="754d35c272ac188c16d1e8ecadd3a4e9" category="cell">コールドデータを階層化することでTCOを最適化</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="cell">コールドデータ階層化</block>
+  <block id="373606d37d348aab2b92921ccd42cff6" category="cell">ボリューム論理容量レポート</block>
+  <block id="fb98d5426e98926f645d90cd612abb55" category="cell">ホストから見える容量レポート</block>
+  <block id="f552bec70b627829570b2811ef2abeaf" category="cell">FlexGroupボリュームのリバランス</block>
+  <block id="de86f1900d1389562924dab590f1c54b" category="cell">FlexGroupボリュームのリバランシング</block>
+  <block id="8c88443c0d2ca0582a66db0631948d4f" category="cell">FlexVol ボリュームのリバランス</block>
+  <block id="7bac915f83e068ef1efc39ae5b1417fa" category="cell">FlexVolボリュームのリバランス</block>
+  <block id="e64c3fb252960e226830fb49bf513992" category="cell">キャッシュ関係書き込みモード</block>
+  <block id="f415a433abd1a63e1e6645ce5f72289f" category="cell">FlexCache 書き込みモード</block>
+  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="cell">キャッシュボリュームのサイズを最適化する</block>
+  <block id="5161fb1808cb1162babdbde5565ef1ad" category="cell">FlexCache レプリカサイズ</block>
+  <block id="c18bcbffca9b6549dbf4c1113b6caa46" category="cell">ボリュームへの不正アクセス</block>
+  <block id="cc5065c9785f355774b0462bc72597ed" category="cell">不正なiSCSIボリュームアクセス</block>
+  <block id="97cbff5fe2b08c67e69334a1f6bb2a8a" category="cell">ARP/AI 無効</block>
+  <block id="56137b68eb5832ccdd9138b8c5138148" category="cell">ランサムウェア対策（ARP/AI）</block>
+  <block id="25a7621f5136df7ea1f50ee60bab4529" category="section-title">Microsoft Azure の Cloud Volumes ONTAP の設定を修正、破棄、および再アクティブ化する</block>
+  <block id="3f2d6026e86cfc3a3e872a2f3cd8f989" category="paragraph">NetApp Console のウェルアーキテクチャダッシュボードで、Cloud Volumes ONTAP システムの構成に関する推奨事項を修正できるようになりました。</block>
+  <block id="e4eac83bd4922d84fdd323f4afe1066b" category="paragraph">また、適切なアーキテクチャ分析から1つまたは複数の構成を除外することもできます。これにより、ご自身の環境に適用されない特定の構成を無視することができます。</block>
+  <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">後で却下した設定を含めたい場合は、ウェルアーキテクテッドダッシュボードで再度有効化できます。これにより、設定が分析に復元され、推奨事項や修正策を取得できるようになります。</block>
+  <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
+  <block id="21b694dc2503eab08ab245a8bcfe9f1c" category="inline-link-macro">AI管理について学ぶ</block>
+  <block id="b1e856d73a7bddeb40cc57002b01ea2b" category="admonition">アカウント管理者がAI機能を無効にしている場合、メッセージが表示され、カスタムルールを作成できなくなります。管理者に連絡するか、<block ref="a4efb9d0168cfdc15063741b91ed0040" category="inline-link-macro-rx"></block>。</block>
+  <block id="54b091dc0d26574680b715ea59512839" category="paragraph">未解決のディレクティブ（&lt;stdin&gt;）- include::well-architected-workloads.adoc[]</block>
+  <block id="e1571d44d672c7a35fe7952a28f414b7" category="paragraph">SSDストレージ層の容量は、使用率が80%を超えないようにしてください。これは、キャパシティプールストレージ層へのデータの読み書きに影響を与え、システムのスループット容量にも影響を与える可能性があります。容量が不足すると、データボリュームは読み取り専用になります。新しいデータを書き込もうとするサービスも失敗します。</block>
+  <block id="70a83d0e2246f9bf751ee82d9d86782a" category="paragraph">ボリューム容量の使用率が80%を超えないようにすることをお勧めします。これは、アプリケーションへのデータの読み書きに影響を与える可能性があります。ボリューム容量の増加は、手動またはボリュームの自動拡張機能を使用して自動的に行うことができます。</block>
+  <block id="fce6ac16b523a1ae826c8b02fe97af9a" category="paragraph">最適なパフォーマンスを得るために、ワークロードに最適な FlexCache 書き込みモードをお勧めします。ライトアラウンドモードは、小さなファイルを扱う読み込み中心のワークロードにおいて優れたパフォーマンスを発揮し、ライトバックモードは、大きなファイルを扱う書き込み中心のワークロードにおいて優れたパフォーマンスを発揮します。</block>
+  <block id="7cba8fc6d012368d0bb1868a9da3aebb" category="paragraph">キャッシュボリュームの最適なサイズを維持し、頻繁にアクセスされる（ホット）データにキャッシュを集中させることで効率を最大限に高めるため、キャッシュボリュームのボリュームの自動拡張とスクラビングを有効にすることをお勧めします。</block>
+  <block id="aafa79fe1c7925cadee2f2931c5a90a6" category="paragraph">過剰にプロビジョニングされたSSD容量階層は、不要なコストを増加させます。SSDティアの容量を削減しながら、20%の空き容量バッファを維持することをお勧めします。縮小操作には数時間から数日かかり、その間は他のファイルシステム操作はサポートされません。</block>
+  <block id="038dede88376955fc6f5dc23c8915a6f" category="paragraph">コールドデータ階層化を有効にすると、コールドデータをSSDストレージ階層から低コストのストレージに移動できます。すべてのボリュームに対して階層化ポリシーを適用することをお勧めします。Azure Blob Storage は、非アクティブなデータの容量層として機能します。</block>
+  <block id="8a4fd5d300e707a9269f6215138076a2" category="paragraph"><block ref="8a4fd5d300e707a9269f6215138076a2" category="inline-link-macro-rx"></block></block>
+  <block id="3b2bdc5e09bea40bfecc86e787cc29c3" category="paragraph">Cloud Volumes ONTAP システムまたはファイルシステム内の選択されたボリュームの構成の問題を修正できます。修正する構成を1つ以上選択できます。</block>
+  <block id="cd375ffa56c1139e1dfd8d14cf3947db" category="paragraph">修復プロセスにより、インスタンスのダウンタイムやサービスの中断が発生する可能性があります。設定上の問題を修正する前に、各推奨事項を注意深く確認してください。</block>
+  <block id="44642e2ce79e19a13d96c2540f6a27e3" category="list-text">ダイアログに表示される概要と対処項目を確認して、問題を修正した場合に何が起こるかを把握してください。一部の操作は、インスタンスのダウンタイムやサービスの中断を引き起こす可能性があります。</block>
+  <block id="4a98f536eaad8a4f8fba5780c2425562" category="paragraph">Cloud Volumes ONTAP システムまたは選択したボリュームの構成分析を停止します。必要に応じて分析を再開できます。</block>
+  <block id="1ba6be935ab946465d05505a4c53e7a7" category="paragraph">却下された構成分析は、Cloud Volumes ONTAP システムでいつでも再アクティブ化できます。再アクティブ化する構成を1つ以上選択できます。</block>
+  <block id="77b9268ed80b17f39e2b280a439b5a22" category="paragraph">システムは構成分析を再開します。新たな分析は毎日実行されます。</block>
+  <block id="ff0fee542e14fa22892513a7e8b95e5c" category="paragraph">未解決のディレクティブ（&lt;stdin&gt;）- include::fsx-configurations.adoc[]</block>
+  <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">AI機能の管理について</block>
+  <block id="e3be61076fdf378fb58cb7d809332294" category="admonition">アカウント管理者がAI機能を無効にしている場合、ルールビルダーは利用できず、カスタムルールを作成することはできません。<block ref="0d265466472513eb45c1ef2960b8028d" category="inline-link-macro-rx"></block>。</block>
+  <block id="13b595cf2341f5678ff3130cc1287485" category="paragraph">一部の項目でチェックが失敗した場合は、エラーメッセージを読んで理由を確認してください。よくある原因としては、接続の問題、権限の不足、またはリンクが設定されていないことなどが挙げられます。</block>
+  <block id="a95c691058f1f67702ea9a0cde5efa02" category="list-text">対象となるすべてのファイルシステムに対して、リンクエージェントとコンソールエージェントが構成されています。</block>
+  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
 </blocks>
