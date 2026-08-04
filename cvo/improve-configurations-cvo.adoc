@@ -88,7 +88,7 @@ Cloud Volumes ONTAP システムまたは選択したボリュームの構成分
 
 [role="tabbed-block"]
 ====
-.ファイルシステムの構成分析を却下する
+.システムの構成分析を却下する
 --
 .手順
 . link:https://console.netapp.com/home["NetApp Console"^]にログインします。
@@ -119,7 +119,7 @@ Cloud Volumes ONTAP システムまたは選択したボリュームの構成分
 --
 ====
 .結果
-ファイルシステムまたは選択されたボリュームの構成分析が停止します。
+システムまたは選択されたボリュームの構成分析が停止します。
 
 分析はいつでも再アクティブ化できます。
 
@@ -132,7 +132,7 @@ Cloud Volumes ONTAP システムまたは選択したボリュームの構成分
 
 [role="tabbed-block"]
 ====
-.ファイルシステムの構成分析を再開する
+.システムの構成分析を再開する
 --
 .手順
 . link:https://console.netapp.com/home["NetApp Console"^]にログインします。
