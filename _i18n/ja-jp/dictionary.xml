@@ -4,7 +4,6 @@
   <block id="92b6fed6ba9205d1ef1ae0e1d186dfa8" category="paragraph">NetApp Console のウェルアーキテクテッドダッシュボードでは、アカウントやリージョンをまたいだストレージシステムと構成を一元的に確認できます。ダッシュボードは、業務効率の向上に役立つインサイトと推奨事項を提供します。構成のウェルアーキテクテッドステータス、使用しているストレージタイプのウェルアーキテクテッドフレームワークの柱ごとに整理された構成上の問題、および構成上の問題と推奨事項のリストを表示できます。</block>
   <block id="5525eb13e3a89cfcd9f9c5e55aa357a4" category="inline-link-macro">優れた設計のダッシュボード</block>
   <block id="6e2cc6111df032359200840287f3c08f" category="paragraph"><block ref="5f27d98a28d7d5cdbad5c60f254e5b36" category="inline-link-macro-rx"></block>の詳細については、こちらをご覧ください。</block>
-  <block id="77411708fcf4ba6bf72f1bc14c6e4893" category="paragraph">コンソールのウェルアーキテクチャダッシュボードは、以下のストレージシステムで利用できます：</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link-macro">Amazon FSx for NetApp ONTAP</block>
   <block id="d9f28f14f6e934bc2dca96849f86ad2f" category="inline-link-macro">Microsoft Azure における Cloud Volumes ONTAP</block>
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">独自のカスタムルールを作成する</block>
@@ -482,8 +481,6 @@
   <block id="b19bb0439c5d62764cdbd2b118e3f054" category="sidebar">構成分析</block>
   <block id="9123b467a31fc6f9863d4a33d8a6badc" category="sidebar">ファイルシステム構成を改善する</block>
   <block id="461c5d5f90a73ed3aa1f4d477121a6cb" category="sidebar">システム構成を改善する</block>
-  <block id="2792cdd0b68bc0567866e5ad220d7b78" category="list-text"><block ref="2792cdd0b68bc0567866e5ad220d7b78" category="inline-link-macro-rx"></block></block>
-  <block id="aa8acd8bfdebf2540f62c36f9f09a75f" category="list-text"><block ref="aa8acd8bfdebf2540f62c36f9f09a75f" category="inline-link-macro-rx"></block></block>
   <block id="b2a386f5924b478e19e471dfee7196f1" category="paragraph">不要なアラートや不正確な最適化結果を避けるため、ストレージ環境に適用されない特定のストレージ構成の分析を無視することもできます。</block>
   <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link-macro">コンソールエージェントをインストールする</block>
   <block id="5b95edeaec9232eb644ac94feb361070" category="list-text"><block ref="516166149f9d9ca9d6d999bf3220e78e" category="inline-link-macro-rx"></block>または<block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block>を使用して、ファイルシステムリソースの最も包括的な分析を行います。</block>
@@ -568,7 +565,6 @@
   <block id="27b3ab8a4b26cd2ee311ee2ac5911ba3" category="paragraph">日々の分析が完了すると、デプロイメントのWell-architectedダッシュボードに、構成が「最適化済み」または「最適化されていない」として表示されます。設定に関する問題はカテゴリ別に整理されており、設定に関する問題とその推奨事項の一覧も掲載されています。設定に関する問題については、推奨事項をご確認ください。一部の問題はWorkload Factoryによって自動的に解決されますが、その他の問題は手動での対応が必要です。この場合、Workload Factoryは、推奨される変更を実装するのに役立つ詳細な手順を提供します。</block>
   <block id="c2bf4ab5c816a6a7be03384125f4a5d6" category="paragraph">Workload Factoryは、継続的な評価と推奨事項、および修復策を組み合わせることで、大規模なストレージ、データベース、およびVMware環境にベストプラクティスを適用します。NetApp Consoleで適用された自動修正により、人的ミスを削減し、統一された管理を確保し、ワークロードインフラストラクチャ全体でパフォーマンスと信頼性を維持します。</block>
   <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">ウェルアーキテクテッドダッシュボードにおける FSx for ONTAP の構成名を更新しました</block>
-  <block id="032088baae45e30e8391672094b24e52" category="paragraph">NetApp Console のウェルアーキテクチャダッシュボードに、FSx for ONTAP のストレージ構成名が更新され、明確さと一貫性が向上しました。</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">以下の表は、Well-Architectedダッシュボードにおける旧構成名と、それに対応する新構成名の一覧です。</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">古い設定名</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">新しい構成名</block>
@@ -668,4 +664,13 @@
   <block id="8bd52317b540b055ec84ab7385f1789b" category="open-title">ストレージプールの構成分析を再アクティブ化する</block>
   <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026年8月17日</block>
   <block id="ba1aed8913644f1ebd2b60ecd5599879" category="sidebar">ストレージプール構成を改善する</block>
+  <block id="f2085e6c9159e77c1694598931a78c54" category="inline-link-macro">Microsoft Azure 上の Cloud Volumes ONTAP。</block>
+  <block id="af60dd6d4748d367317db02ecf8412df" category="paragraph">コンソールのウェルアーキテクチャダッシュボードは、<block ref="a6a029d1bfbb017a404644ee02b0b284" category="inline-link-macro-rx"></block></block>
+  <block id="9816127c5ba6e54118e083fdec8ad3df" category="doc">NetApp ConsoleのWell-ArchitectedダッシュボードにおけるFSx for ONTAPのサポート</block>
+  <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">NetApp Console のウェルアーキテクチャダッシュボードは、Amazon FSx for NetApp ONTAP で利用できます。</block>
+  <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">FSx for ONTAP の構成分析について</block>
+  <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
+  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">NetApp Console のウェルアーキテクチャダッシュボードに、FSx for ONTAP の新しいストレージ構成名が追加されました。</block>
+  <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">適切に設計された問題が、NetApp Console のシステムページに表示されます</block>
+  <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">適切に設計された問題に関する通知は、NetApp Console のストレージ管理システムページから Microsoft Azure の Cloud Volumes ONTAP に対して利用できます。この機能を使用すると、Azure の Cloud Volumes ONTAP システムにおける設定上の問題を迅速に特定し、通知からワークロードの適切に設計されたダッシュボードに移動できます。</block>
 </blocks>

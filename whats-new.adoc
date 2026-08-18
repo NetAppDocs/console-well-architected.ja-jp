@@ -34,70 +34,6 @@ link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-a
 
 
 
-[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
-=== ウェルアーキテクテッドダッシュボードにおける FSx for ONTAP の構成名を更新しました
-
-NetApp Console のウェルアーキテクチャダッシュボードに、FSx for ONTAP のストレージ構成名が更新され、明確さと一貫性が向上しました。
-
-以下の表は、Well-Architectedダッシュボードにおける旧構成名と、それに対応する新構成名の一覧です。
-
-[cols="1,1"]
-|===
-| 古い設定名 | 新しい構成名 
-
-
-| ボリュームバックアップのスケジュール設定 | ボリュームバックアップ 
-
-
-| SSD容量のしきい値 | SSDの容量余裕 
-
-
-| ファイル容量のしきい値 | ファイル容量のヘッドルーム 
-
-
-| 長期保存データの信頼性 | レプリケーションポリシーラベル 
-
-
-| ローカルスナップショットのスケジュール設定 | Snapshot ポリシー 
-
-
-| 不要なバックアップを削除する | バックアップの有効期限 
-
-
-| 不要なスナップショットを削除する | スナップショットの有効期限 
-
-
-| SSDの未使用容量 | オーバープロビジョニングされたSSD容量 
-
-
-| 非アクティブなブロックデバイス | 非アクティブなブロックデバイス（LUN） 
-
-
-| コールドデータを階層化することでTCOを最適化 | コールドデータ階層化 
-
-
-| ボリューム論理容量レポート | ホストから見える容量レポート 
-
-
-| FlexGroupボリュームのリバランス | FlexGroupボリュームのリバランシング 
-
-
-| FlexVol ボリュームのリバランス | FlexVolボリュームのリバランス 
-
-
-| キャッシュ関係書き込みモード | FlexCache 書き込みモード 
-
-
-| キャッシュボリュームのサイズを最適化する | FlexCache レプリカサイズ 
-
-
-| ボリュームへの不正アクセス | 不正なiSCSIボリュームアクセス 
-
-
-| ARP/AI 無効 | ランサムウェア対策（ARP/AI） 
-|===
-
-
 [[fix-dismiss-and-reactivate-configurations-for-cloud-volumes-ontap-in-microsoft-azure]]
 === Microsoft Azure の Cloud Volumes ONTAP の設定を修正、破棄、および再アクティブ化する
 
@@ -123,11 +59,7 @@ NetApp Console のウェルアーキテクテッドダッシュボードでは�
 
 link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["優れた設計のダッシュボード"]の詳細については、こちらをご覧ください。
 
-コンソールのウェルアーキテクチャダッシュボードは、以下のストレージシステムで利用できます：
-
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure における Cloud Volumes ONTAP"]
-
+コンソールのウェルアーキテクチャダッシュボードは、link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure 上の Cloud Volumes ONTAP。"]
 
 
 

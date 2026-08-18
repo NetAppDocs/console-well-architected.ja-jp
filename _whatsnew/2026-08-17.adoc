@@ -1,0 +1,84 @@
+= NetApp ConsoleのWell-ArchitectedダッシュボードにおけるFSx for ONTAPのサポート
+:allow-uri-read: 
+
+
+
+
+[[fsx-for-ontap-support-in-the-well-architected-dashboard-in-netapp-console]]
+=== NetApp ConsoleのWell-ArchitectedダッシュボードにおけるFSx for ONTAPのサポート
+
+NetApp Console のウェルアーキテクチャダッシュボードは、Amazon FSx for NetApp ONTAP で利用できます。
+
+* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["FSx for ONTAP の構成分析について"]
+
+
+
+
+[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
+=== ウェルアーキテクテッドダッシュボードにおける FSx for ONTAP の構成名を更新しました
+
+NetApp Console のウェルアーキテクチャダッシュボードに、FSx for ONTAP の新しいストレージ構成名が追加されました。
+
+以下の表は、Well-Architectedダッシュボードにおける旧構成名と、それに対応する新構成名の一覧です。
+
+[cols="1,1"]
+|===
+| 古い設定名 | 新しい構成名 
+
+
+| ボリュームバックアップのスケジュール設定 | ボリュームバックアップ 
+
+
+| SSD容量のしきい値 | SSDの容量余裕 
+
+
+| ファイル容量のしきい値 | ファイル容量のヘッドルーム 
+
+
+| 長期保存データの信頼性 | レプリケーションポリシーラベル 
+
+
+| ローカルスナップショットのスケジュール設定 | Snapshot ポリシー 
+
+
+| 不要なバックアップを削除する | バックアップの有効期限 
+
+
+| 不要なスナップショットを削除する | スナップショットの有効期限 
+
+
+| SSDの未使用容量 | オーバープロビジョニングされたSSD容量 
+
+
+| 非アクティブなブロックデバイス | 非アクティブなブロックデバイス（LUN） 
+
+
+| コールドデータを階層化することでTCOを最適化 | コールドデータ階層化 
+
+
+| ボリューム論理容量レポート | ホストから見える容量レポート 
+
+
+| FlexGroupボリュームのリバランス | FlexGroupボリュームのリバランシング 
+
+
+| FlexVol ボリュームのリバランス | FlexVolボリュームのリバランス 
+
+
+| キャッシュ関係書き込みモード | FlexCache 書き込みモード 
+
+
+| キャッシュボリュームのサイズを最適化する | FlexCache レプリカサイズ 
+
+
+| ボリュームへの不正アクセス | 不正なiSCSIボリュームアクセス 
+
+
+| ARP/AI 無効 | ランサムウェア対策（ARP/AI） 
+|===
+
+
+[[well-architected-issues-displayed-in-netapp-console-systems-page]]
+=== 適切に設計された問題が、NetApp Console のシステムページに表示されます
+
+適切に設計された問題に関する通知は、NetApp Console のストレージ管理システムページから Microsoft Azure の Cloud Volumes ONTAP に対して利用できます。この機能を使用すると、Azure の Cloud Volumes ONTAP システムにおける設定上の問題を迅速に特定し、通知からワークロードの適切に設計されたダッシュボードに移動できます。

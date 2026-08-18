@@ -11,11 +11,7 @@ NetApp Console のウェルアーキテクテッドダッシュボードでは�
 
 link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["優れた設計のダッシュボード"]の詳細については、こちらをご覧ください。
 
-コンソールのウェルアーキテクチャダッシュボードは、以下のストレージシステムで利用できます：
-
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure における Cloud Volumes ONTAP"]
-
+コンソールのウェルアーキテクチャダッシュボードは、link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure 上の Cloud Volumes ONTAP。"]
 
 
 
