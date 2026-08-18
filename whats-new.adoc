@@ -25,15 +25,14 @@ NetApp Console のウェルアーキテクチャダッシュボードの新機�
 
 NetApp Console のウェルアーキテクチャダッシュボードは、Amazon FSx for NetApp ONTAP で利用できます。
 
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["FSx for ONTAP の構成分析について"]
+link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["FSx for ONTAP の構成分析について"]
 
 
 
+[[updated-configuration-names-in-the-well-architected-dashboard]]
+=== 適切に設計されたダッシュボードで構成名が更新されました
 
-[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
-=== ウェルアーキテクテッドダッシュボードにおける FSx for ONTAP の構成名を更新しました
-
-NetApp Console のウェルアーキテクチャダッシュボードに、FSx for ONTAP の新しいストレージ構成名が追加されました。
+NetApp Console のウェルアーキテクチャダッシュボードに、新しいストレージ構成名が追加されました。
 
 以下の表は、Well-Architectedダッシュボードにおける旧構成名と、それに対応する新構成名の一覧です。
 
