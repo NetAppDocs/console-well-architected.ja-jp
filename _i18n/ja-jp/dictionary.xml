@@ -673,4 +673,5 @@
   <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">NetApp Console のウェルアーキテクチャダッシュボードに、FSx for ONTAP の新しいストレージ構成名が追加されました。</block>
   <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">適切に設計された問題が、NetApp Console のシステムページに表示されます</block>
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">適切に設計された問題に関する通知は、NetApp Console のストレージ管理システムページから Microsoft Azure の Cloud Volumes ONTAP に対して利用できます。この機能を使用すると、Azure の Cloud Volumes ONTAP システムにおける設定上の問題を迅速に特定し、通知からワークロードの適切に設計されたダッシュボードに移動できます。</block>
+  <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
 </blocks>
