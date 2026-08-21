@@ -33,6 +33,12 @@ link:configuration-analysis-cvo.html["構成分析とWell-Architectedステー�
 
 * link:https://console.netapp.com/add-working-environment/choose-type["Cloud Volumes ONTAP システムを追加する"]して NetApp Console にログインし、Well-Architected のステータスと構成上の問題に関する推奨事項を確認する必要があります。
 * link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["コンソールエージェントをデプロイする必要があります"]システムリソースの最も包括的な分析のために。
+* 以下のエンドポイントへのアウトバウンドネットワーク接続を許可してください：
++
+** \https://api.workloads.netapp.com
+** \https://ws.workloads.bluexp.netapp.com
+
+
 
 
 
