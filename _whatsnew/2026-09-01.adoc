@@ -1,0 +1,26 @@
+= Cloud Volumes ONTAP のリモートデータレプリケーション評価
+:allow-uri-read: 
+
+
+
+
+[[remote-data-replication-assessment-for-cloud-volumes-ontap]]
+=== Cloud Volumes ONTAP のリモートデータレプリケーション評価
+
+Cloud Volumes ONTAP データがリモートレプリケーションで保護されているかどうかを確認する新しい評価が利用可能になりました。これにより、データ保護計画が災害復旧とビジネス継続性のベストプラクティスに従っていることを確認できます。
+
+link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP の構成分析について"]
+
+
+
+[[dismiss-entire-well-architected-configurations]]
+=== 整備されたすべての構成を無視する
+
+ダッシュボードから、推奨設定全体を非表示にできるようになりました。これにより、お客様の環境に表示される推奨事項や評価をより細かく制御できるようになります。
+
+
+
+[[database-workload-recommendations-in-the-well-architected-dashboard]]
+=== 適切に設計されたダッシュボードにおけるデータベースワークロードの推奨事項
+
+FSx for ONTAP を使用したデータベースワークロードの推奨事項が、NetApp Console のウェルアーキテクテッドダッシュボードで利用可能になりました。ストレージリソースとデータベースワークロードの両方の状態を1か所で確認できるため、インフラストラクチャの健全性を包括的に把握できます。

@@ -4,7 +4,7 @@ permalink: manage-custom-rules.html
 keywords: manage custom rules, disable rules, delete rules, rule catalog, byor 
 summary: ルールカタログから、カスタムアーキテクチャルールを表示、有効化、無効化、および削除します。 
 ---
-= カスタムルールの管理
+= NetApp Console でカスタムルールを管理する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

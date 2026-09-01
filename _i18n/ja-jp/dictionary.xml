@@ -678,4 +678,20 @@
   <block id="0eda8bbe61d2248f5418aba76b8dc5b1" category="list-text">\https://api.workloads.netapp.com</block>
   <block id="9f45fe3cd2af64a1afc3f4b7f81bdae6" category="list-text">\https://ws.workloads.bluexp.netapp.com</block>
   <block id="0199e3b5e3c5c22e842b51ede658f164" category="list-text">以下のエンドポイントへのアウトバウンドネットワーク接続を許可してください：</block>
+  <block id="986c0b89e6f7ad596953e7ac2424db26" category="doc">Cloud Volumes ONTAP のリモートデータレプリケーション評価</block>
+  <block id="dfcd41b313833d05496197a786d2d2af" category="paragraph">Cloud Volumes ONTAP データがリモートレプリケーションで保護されているかどうかを確認する新しい評価が利用可能になりました。これにより、データ保護計画が災害復旧とビジネス継続性のベストプラクティスに従っていることを確認できます。</block>
+  <block id="1e3316df3b456fee5d47d971c9bc6ca7" category="inline-link-macro">Cloud Volumes ONTAP の構成分析について</block>
+  <block id="120d2b8bb50127766f119c5df258a5a7" category="paragraph"><block ref="120d2b8bb50127766f119c5df258a5a7" category="inline-link-macro-rx"></block></block>
+  <block id="83eb7ae79829b538266050d3f5c9fb61" category="section-title">整備されたすべての構成を無視する</block>
+  <block id="e392235686146a792505661ee5217957" category="paragraph">ダッシュボードから、推奨設定全体を非表示にできるようになりました。これにより、お客様の環境に表示される推奨事項や評価をより細かく制御できるようになります。</block>
+  <block id="a2478a7b8d2f8aade20d9381c210a4ad" category="section-title">適切に設計されたダッシュボードにおけるデータベースワークロードの推奨事項</block>
+  <block id="5f71f327ec034d4f4c3d749b221ebc26" category="paragraph">FSx for ONTAP を使用したデータベースワークロードの推奨事項が、NetApp Console のウェルアーキテクテッドダッシュボードで利用可能になりました。ストレージリソースとデータベースワークロードの両方の状態を1か所で確認できるため、インフラストラクチャの健全性を包括的に把握できます。</block>
+  <block id="e4e3f7accbddfb89b3512b66c5a8a37b" category="doc">NetApp Console でカスタムルールを作成する</block>
+  <block id="c465a7bd98f96ab6b7e15dbed5471998" category="list-text">リモートデータレプリケーション</block>
+  <block id="b03b92c4dfcafd9226ecc9026f960e01" category="paragraph">リモートレプリケーションによってCloud Volumes ONTAPのデータを保護します。リモートデータレプリケーションは、データの同期コピーを異なる場所に保持することで、災害復旧機能を提供し、システム障害や災害が発生した場合でも事業継続性を確保します。</block>
+  <block id="3c768f8b4f33704ddf416410c4e008a7" category="doc">NetApp Console クラウドサービスのヘルプを取得する</block>
+  <block id="ce6ef2ffcadf69c1dc27dcb9da2d801d" category="doc">NetApp Console のカスタムルールについて</block>
+  <block id="1b050fa37a029d628899a5bd2e48783f" category="doc">NetApp Console でカスタムルールを管理する</block>
+  <block id="277894237bef57e14299dc8b3b8b5f13" category="doc">NetApp Console でサポートに登録する</block>
+  <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">2026年8月30日</block>
 </blocks>
