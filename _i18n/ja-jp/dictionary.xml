@@ -88,7 +88,6 @@
   <block id="3583e4a3e4e2e122cff65b8ad9045348" category="list-text">プロアクティブな可観測性</block>
   <block id="16fcd85dc9469370b62b4b46381f8e2a" category="list-text">洞察から行動へ</block>
   <block id="3f6f8b4e204fd3aa39cac35661de164d" category="section-title">分析要件</block>
-  <block id="021c4674734853c034b954078fa080f3" category="inline-link-macro">NetApp Consoleエージェントをデプロイします</block>
   <block id="f064aed6dd86a2b762ecf9bcf528b941" category="section-title">Cloud Volumes ONTAP システムのベストプラクティスと推奨事項</block>
   <block id="ffd9fc00ab43b8283346c6266e00d684" category="paragraph">適切に設計された分析では、構成をフレームワークの次の柱に分類します：_信頼性_、_セキュリティ_、_運用効率_、_コスト最適化_、および_パフォーマンス効率_。</block>
   <block id="820b8f74ad843d1574106ec4cadfc07e" category="section-title">信頼性</block>
@@ -483,7 +482,6 @@
   <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
   <block id="011f9504247c9cd1298e36479592feba" category="summary">NetApp Console のウェルアーキテクチャダッシュボードは、Cloud Volumes ONTAP システムの構成を毎日分析し、構成上の問題がないかどうかを確認します。</block>
-  <block id="ed3de084ebd57dfb5d10d8d07d5ff7c2" category="paragraph">完全な Cloud Volumes ONTAP システム分析を行うには、システムと NetApp Console 間の接続を設定するために <block ref="19a2c83f86e8c849ea6629f601093445" category="inline-link-macro-rx"></block> する必要があります。</block>
   <block id="df022fa81268ad87abe9b34e29e60ea4" category="paragraph">適切に設計されたダッシュボードは、ストレージ構成を評価し、ONTAP 構成のベストプラクティスおよび Azure Well-Architected Framework への準拠に関する詳細なビューを提供します。この評価では、改善点や修正点も推奨しています。</block>
   <block id="f52eaa2b01823c61afb346f01ff37aec" category="paragraph">信頼性とは、障害発生時であっても、ワークロードが意図された機能を正確かつ一貫して実行することを保証するものです。</block>
   <block id="2b4d9723a34936112e4a4945c03eafb0" category="summary">ウェルアーキテクチャダッシュボードは、Cloud Volumes ONTAP の構成をスキャンし、運用上の卓越性を達成するためのインサイトと推奨事項を提供します。</block>
@@ -651,7 +649,6 @@
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
   <block id="33f99db970bd78e039b488318b97f37e" category="section-title">適切に設計されたダッシュボードで構成名が更新されました</block>
   <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">NetApp Console のウェルアーキテクチャダッシュボードに、新しいストレージ構成名が追加されました。</block>
-  <block id="1ee2856eba991f06fff41aa25f053f64" category="paragraph">また、以下のエンドポイントへのアウトバウンド接続を確立する必要があります：</block>
   <block id="0eda8bbe61d2248f5418aba76b8dc5b1" category="list-text">\https://api.workloads.netapp.com</block>
   <block id="9f45fe3cd2af64a1afc3f4b7f81bdae6" category="list-text">\https://ws.workloads.bluexp.netapp.com</block>
   <block id="0199e3b5e3c5c22e842b51ede658f164" category="list-text">以下のエンドポイントへのアウトバウンドネットワーク接続を許可してください：</block>
@@ -703,4 +700,5 @@
   <block id="e1379bec6448939dd8c8e64956276571" category="paragraph">日々の分析が完了すると、構成はウェルアーキテクテッドダッシュボードに「最適化済み」または「最適化されていない」として表示されます。ウェルアーキテクテッドフレームワークのカテゴリ（信頼性、セキュリティ、運用上の優秀性、コスト最適化、パフォーマンス効率）ごとに構成上の問題点が示され、構成上の問題点と推奨事項の一覧が表示されます。NetApp Workload Factoryは一部の問題を自動的に解決できますが、その他の問題には手動での対応が必要です。この場合、推奨事項には変更を実施するための詳細な手順が記載されています。</block>
   <block id="1051d8d8b259af6af090187b5a6f6c2c" category="paragraph">お客様の環境に適用されない構成の分析を無視することができます。構成を無視することで、不要なアラートや不正確な最適化結果を回避できます。</block>
   <block id="6d2ee57779e107d410d741c1c85b6b44" category="paragraph">NetApp Workload Factoryは、継続的な評価と推奨事項、および修復策を組み合わせることで、大規模なストレージ、データベース、およびVMware環境にベストプラクティスを適用します。自動化された修復機能は、人的ミスを削減し、均一な管理を確保し、システムインフラストラクチャ全体のパフォーマンスと信頼性を維持します。</block>
+  <block id="54675850f07c5f375dabbd24ce963055" category="paragraph">Cloud Volumes ONTAP に関連付けられたコンソールエージェントが、以下のエンドポイントにアクセスできることを確認してください。</block>
 </blocks>
