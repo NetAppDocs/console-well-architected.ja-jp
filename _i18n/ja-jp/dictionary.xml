@@ -486,7 +486,6 @@
   <block id="f52eaa2b01823c61afb346f01ff37aec" category="paragraph">信頼性とは、障害発生時であっても、ワークロードが意図された機能を正確かつ一貫して実行することを保証するものです。</block>
   <block id="2b4d9723a34936112e4a4945c03eafb0" category="summary">ウェルアーキテクチャダッシュボードは、Cloud Volumes ONTAP の構成をスキャンし、運用上の卓越性を達成するためのインサイトと推奨事項を提供します。</block>
   <block id="7d8ce54875dd8d37c61d873a00e8d034" category="summary">適切に設計されたダッシュボードは、FSx for ONTAP ファイルシステムの構成を定期的に分析し、構成上の問題がないかどうかを確認します。</block>
-  <block id="3ce760239f38234fc2c8c277efe0bd25" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block>または<block ref="a06f2f34fedf48ea46300ba646899766" category="inline-link-macro-rx"></block>を使用して、ファイルシステムとNetApp Console間の接続を設定します。</block>
   <block id="782a430d789ff1db80e40fbe9c0be819" category="paragraph">適切に設計されたダッシュボードは、ストレージ構成をONTAPのベストプラクティスおよびAWS Well-Architected Frameworkに照らして評価します。この評価では、改善点や修正点も推奨しています。</block>
   <block id="fb0db5246d7e15caadfb931bef38413c" category="paragraph">リージョン間レプリケーションにより、データが別のAWSリージョンに複製されるため、データの耐久性と可用性が向上します。災害復旧とコンプライアンスをサポートするために、リージョン間レプリケーションを設定します。</block>
   <block id="5a0e6732f4b279b7f8151534487bbe55" category="paragraph">SSDストレージ層の容量は、使用率が80%を超えないようにしてください。これは、キャパシティプールストレージ層へのデータの読み書きに影響を与え、ファイルシステムのスループット容量にも影響を与える可能性があります。容量が不足すると、データボリュームは読み取り専用になります。新しいデータを書き込もうとするサービスも失敗します。</block>
@@ -680,7 +679,6 @@
   <block id="e4eebe121d284466b50faa46dec0cda9" category="paragraph">リンクまたはコンソールエージェントの接続により、NetApp Workload Factoryはファイルシステムのパフォーマンス、データ保護、構成に関する問題を包括的にスキャンできます。その結果、FSx for ONTAP ファイルシステムを最適化するための正確なインサイトと推奨事項が得られます。</block>
   <block id="6ffd2376c7aaaca4975b1f06f24193c7" category="inline-link-macro">コンソールエージェントをインストールする</block>
   <block id="709be97721c78cba90770231b1263a14" category="inline-link-macro">リンクを使用してFSx for ONTAPファイルシステムに接続する</block>
-  <block id="65179ff6728d2d8faef1a99d7f55f6dd" category="list-text">ファイルシステムリソースの最も包括的な分析を行うには、<block ref="820a9225e29d6d4b9bc54d71d1eeb569" category="inline-link-macro-rx"></block>または<block ref="13912c59a5ea303190d1db0c6a5f11f5" category="inline-link-macro-rx"></block>する必要があります。</block>
   <block id="b989a53cfcc551a78e451e9bd6b86a6e" category="list-text">単一ボリュームの場合は「修正」を、複数ボリュームの場合は「表示して修正」を選択してください。「表示して修正」を選択した場合は、修正する影響を受けるボリュームを選択してください。</block>
   <block id="39da1b17152d7871cd1a04ff715358e2" category="list-text">構成分析から、再アクティブ化するボリュームを特定します。</block>
   <block id="7b13fb7d44ed98f093de9f3dd8d11cb6" category="paragraph">Workload Factoryは、ストレージシステムの構成を定期的に分析し、構成上の問題がないかどうかを判断します。問題が見つかった場合、NetApp Consoleのwell-architectedダッシュボードに問題点が表示され、ストレージシステムが最高のパフォーマンス、対費用効果の高い、およびベストプラクティスへの準拠を達成するために変更が必要な内容が説明されます。</block>
@@ -701,4 +699,6 @@
   <block id="1051d8d8b259af6af090187b5a6f6c2c" category="paragraph">お客様の環境に適用されない構成の分析を無視することができます。構成を無視することで、不要なアラートや不正確な最適化結果を回避できます。</block>
   <block id="6d2ee57779e107d410d741c1c85b6b44" category="paragraph">NetApp Workload Factoryは、継続的な評価と推奨事項、および修復策を組み合わせることで、大規模なストレージ、データベース、およびVMware環境にベストプラクティスを適用します。自動化された修復機能は、人的ミスを削減し、均一な管理を確保し、システムインフラストラクチャ全体のパフォーマンスと信頼性を維持します。</block>
   <block id="54675850f07c5f375dabbd24ce963055" category="paragraph">Cloud Volumes ONTAP に関連付けられたコンソールエージェントが、以下のエンドポイントにアクセスできることを確認してください。</block>
+  <block id="76a31cd6a7131cd21109cee81fd94902" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block>または<block ref="1c85a9585130a3e66370d665193250bb" category="inline-link-macro-rx"></block>を使用して、ファイルシステムとNetApp Console間の接続を設定します。</block>
+  <block id="5be624540f07772a5d8aaac43ebbcfa8" category="list-text">ファイルシステムリソースの最も包括的な分析を行うには、<block ref="820a9225e29d6d4b9bc54d71d1eeb569" category="inline-link-macro-rx"></block>または<block ref="773b862b73888ba0f103d451af29397c" category="inline-link-macro-rx"></block>する必要があります。</block>
 </blocks>
