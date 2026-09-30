@@ -47,7 +47,6 @@
   <block id="7d84a0d9d14a5f050503a7b9b00b3435" category="paragraph">AIは、ニーズをより深く理解するために、いくつかの選択肢の中から選択するよう求める場合があります。各質問に回答し、「続行」を選択するか、「スキップ」を選択してオプションの質問をスキップしてください。</block>
   <block id="f7dd96479a94850934674d003fe54f52" category="list-text">すべての質問に回答したら、*Continue* を選択してルールを作成してください。</block>
   <block id="66178252f08edeeeeda7bfc5ebf5227b" category="section-title">ルールをテストする</block>
-  <block id="0362b2cfbfe0db96dc282024dbd64841" category="paragraph">ルールをスケジュールする前に、一度テストを実行して、どのリソースに影響するかを確認してください。</block>
   <block id="e0924f9cecf28912d6b59208f0ee9242" category="list-text">「ルールの検証」を選択します。</block>
   <block id="87d68b4e906936ea67c73d25fddbb199" category="paragraph">システムは、対象となるすべてのリソースを、お客様のルールロジックに基づいて評価します。</block>
   <block id="6ad0887ee719e958ea66bc1d5ca7ed60" category="list-text">検証結果を確認します。</block>
@@ -60,10 +59,8 @@
   <block id="1bb9a202a6c7284b2727618b6b42d1bf" category="list-text">*接続エラー*：リンクまたはエージェントが特定のファイルシステム用に構成されていない可能性があります</block>
   <block id="6601c2de36f9d2c2a63a21c9170e4bae" category="list-text">*ONTAP権限エラー*：閲覧ユーザーには特定のリソースへのアクセス権がない可能性があります</block>
   <block id="24a910eeb4468fa91fa54136e064eb5d" category="section-title">ルールを保存またはスケジュールする</block>
-  <block id="8c7715e49e638258c4536fec9aff1f6e" category="paragraph">ルールをテストした後、下書きとして保存するか、定期的に実行するように設定できます。</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">次のいずれかを実行します。</block>
   <block id="8c080127194fcaf624649c3bab095baa" category="list-text">定期的な評価をスケジュールするには、評価頻度（最小1時間、デフォルト24時間）を設定し、*スケジュール*を選択します。このルールは有効になっており、定義されたスケジュールに従って実行されます。</block>
-  <block id="988a89425a3c56162fa9fed77217603a" category="list-text">スケジュールを設定せずに保存するには、「下書きとして保存」を選択してください。ルールは保存されますが、スケジュールが設定されるまでは評価されません。</block>
   <block id="f3448dd91675f24e9473969b2f303b47" category="list-text">ルールを破棄するには、「破棄」を選択してルールの作成をキャンセルし、最初からやり直してください。</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
   <block id="8e89c0ba0d3b83aea36ecc1be4cfe4fb" category="paragraph">お客様のカスタムルールが作成され、ルールカタログに登録されました。スケジュールを設定すると、指定された頻度で FSx for ONTAP リソースがチェックされます。</block>
@@ -296,15 +293,9 @@
   <block id="3414a9edc41238183f8bcc3192e49adf" category="section-title">ルールライフサイクル</block>
   <block id="990ef24c1b7e8a2bf1d9ad948d75e88c" category="paragraph">カスタムルールは、以下の状態を経て進行します。</block>
   <block id="f03ab16cd58372c77ba45a3d9a5a1cb9" category="list-text">ドラフト</block>
-  <block id="7edfa45546f16ea439072c85ed022ded" category="list-text">ルールが作成されています。評価は行われません。</block>
-  <block id="a42abfa6ff4f9bd0c4d682a01cec4455" category="list-text">ドライラン</block>
-  <block id="df76323d34c18ca92f80a38fd9da8d33" category="list-text">影響を受けるリソースを事前に把握するための、一度限りの評価。スケジュール設定前の検証に使用されます。</block>
   <block id="9c039c6e29eb59991bbe3702d2de1aed" category="list-text">スケジュール済み（有効）</block>
-  <block id="12401e69cfee8012efd57dfa07ccda49" category="list-text">ルールは有効であり、定義されたスケジュールに従って実行されます。</block>
   <block id="b9f5c797ebbf55adccdd8539a65a0241" category="list-text">Disabled</block>
-  <block id="9bfd2521cfb729dd925cf45079242073" category="list-text">ルールは一時停止されていますが、削除されていません。再度有効化できます。</block>
   <block id="5fe6005bf6e415c950c011fb65f12b8f" category="list-text">削除済み</block>
-  <block id="82ec5f7cc11035152c40e48c55c05b0d" category="list-text">ルールは永久に削除されました。</block>
   <block id="2090e30be5c37fb6b5aa40aa26a83dea" category="section-title">カスタムルールの例</block>
   <block id="d272586227e521ec436cb6d107bc72ba" category="paragraph">以下の例は、一般的なカスタムルールを示しています。</block>
   <block id="ee7f53b205e43e7a5017510113ca16f8" category="list-text">*生産量保護*</block>
@@ -349,7 +340,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルは、NetAppソフトウェアで使用されるサードパーティの著作権とライセンスに関する情報を提供します。</block>
   <block id="2f7453885ba13ef684e6cd780fb74164" category="summary">ルールカタログから、カスタムアーキテクチャルールを表示、有効化、無効化、および削除します。</block>
-  <block id="0a7f0abf34857702447ced5ee72899a5" category="paragraph">ルールカタログは、すべてのカスタムルールを管理できる場所です。各ルールの詳細を確認したり、結果をチェックしたり、ルールの有効/無効を切り替えたりできます。</block>
   <block id="d8bb2214730133a5475bf68bf933cdeb" category="section-title">ルールカタログを表示する</block>
   <block id="12dc6c12cd959eea202fab9d01a2ef04" category="paragraph">ルールカタログには、作成したすべてのルール、そのステータス、スケジュール、および最新の結果が表示されます。</block>
   <block id="dd5177b4ae0935729bdc02652d8232ff" category="list-text">メニュー <block ref="438b712f6e6afc173ce78a756adc207c" category="inline-image-macro-rx" type="image"></block> を選択し、次に *Rule builder* を選択します。</block>
@@ -377,7 +367,6 @@
   <block id="b4b7ad5dbb1a5d746e0ac8936e3f4798" category="paragraph">システムは、対象となるすべてのリソースをルールロジックに基づいて評価します。</block>
   <block id="5cb57852939f164731c4f61fcca33dac" category="list-text">結果を確認して、現在のコンプライアンス状況を把握してください。</block>
   <block id="2cc894218e78a9699920859cc698e5d7" category="paragraph">テストは監査され、ルールの評価履歴に表示されます。</block>
-  <block id="3d3e89f1bbb9f2c8f8d5468d18a725ec" category="section-title">実行状況を理解する</block>
   <block id="6e65a771efc9492475fe8b5aa7f1f7a1" category="paragraph">実行ステータスは、ルールが正常に実行されたかどうかを示します。</block>
   <block id="30ae8fff8898dc197acd49d9c0797d20" category="list-text">成功</block>
   <block id="10d8136bef0db24840b317cf2cf9d542" category="list-text">関連するすべてのリソースを確認しましたが、エラーは見つかりませんでした。</block>
@@ -620,8 +609,6 @@
   <block id="01b307f0335162114b66a6190044c275" category="list-text">Google Cloud アカウントで、_表示、計画、分析_ の権限を付与してください。</block>
   <block id="1341f195ac9799a77bdbba45d7cc551e" category="inline-link-macro">Google Cloud アカウントに権限を付与する方法を説明します</block>
   <block id="011c3ba35123b641365e7db9c488ccaa" category="paragraph"><block ref="011c3ba35123b641365e7db9c488ccaa" category="inline-link-macro-rx"></block></block>
-  <block id="9d1211cf0c0938352f5fc0c16d3f4f45" category="paragraph">Workload Factory は、ストレージおよび ONTAP のベストプラクティスと Google Cloud Well-Architected Framework に照らして、ストレージ構成を評価します。評価では、改善点も提案されます。</block>
-  <block id="6e1d527b580364f3697ae14e9ee87785" category="paragraph">適切に設計された分析では、構成をフレームワークの次の柱、すなわち_信頼性_と_運用上の卓越性_に分類します。</block>
   <block id="c5a88482771f220e57ee0ee1238fff02" category="paragraph">Workload Factoryは、SSD層の使用率を80%以下に抑えることを推奨しています。ワークロードによっては、追加の容量余裕と低い利用率目標が必要となる場合があります。使用量が推奨される余裕を超えると、特に容量を適時に拡張しない場合は、パフォーマンスの低下やサービスの問題が発生するリスクが高まります。1つまたは複数のストレージプールに対してこれを無効にし、必要に応じて後で再度有効にすることができます。</block>
   <block id="7ac5667c1b90b6524fde9817118effea" category="paragraph">Workload Factory は、容量不足のリスクを軽減するために、ボリューム使用率を80%未満に抑えることを推奨しています。ボリュームが予想以上に速く増加した場合、迅速に拡張する必要が生じる可能性があります。これは、特に急激または断続的な増加が発生した場合に、アプリケーションへの影響リスクを高める可能性があります。シンプロビジョニングと自動容量管理を使用すると、このリスクは低減されます。1つまたは複数のボリュームに対して無効化し、必要に応じて後で再度有効化することができます。</block>
   <block id="f793fba5432b14d544dc9553f3dba075" category="inline-link-macro">適切に設計された Google Cloud NetApp Volumes の構成を実装する</block>
@@ -681,17 +668,6 @@
   <block id="709be97721c78cba90770231b1263a14" category="inline-link-macro">リンクを使用してFSx for ONTAPファイルシステムに接続する</block>
   <block id="b989a53cfcc551a78e451e9bd6b86a6e" category="list-text">単一ボリュームの場合は「修正」を、複数ボリュームの場合は「表示して修正」を選択してください。「表示して修正」を選択した場合は、修正する影響を受けるボリュームを選択してください。</block>
   <block id="39da1b17152d7871cd1a04ff715358e2" category="list-text">構成分析から、再アクティブ化するボリュームを特定します。</block>
-  <block id="7b13fb7d44ed98f093de9f3dd8d11cb6" category="paragraph">Workload Factoryは、ストレージシステムの構成を定期的に分析し、構成上の問題がないかどうかを判断します。問題が見つかった場合、NetApp Consoleのwell-architectedダッシュボードに問題点が表示され、ストレージシステムが最高のパフォーマンス、対費用効果の高い、およびベストプラクティスへの準拠を達成するために変更が必要な内容が説明されます。</block>
-  <block id="5d53284fb4850094d575eb9c0096fe4a" category="paragraph">NetAppは、構成分析のインサイトと推奨事項を使用して、Google Cloud NetApp Volumesストレージプールのベストプラクティスを実装するのに役立ちます。適切に設計された状態を確認したり、構成上の問題点を把握したり、信頼性、セキュリティ、効率性、パフォーマンス、コストの面で最適化されていないストレージプールのアーキテクチャを改善するための推奨事項を入手したりできます。</block>
-  <block id="fee7ee6c35710723ba710f440950ec24" category="paragraph">NetAppは、Google Cloud NetApp Volumes のストレージプール構成を毎日分析します。日々の分析では、ウェルアーキテクチャのステータス、および構成上の問題を理解してストレージプールがベストプラクティスに準拠するための洞察と推奨事項が提供されます。</block>
-  <block id="58106dc77a145acb5b9f958b8c944c32" category="paragraph">LinkまたはConsoleエージェントの接続により、Workload Factoryはファイルシステムを包括的にスキャンし、パフォーマンス、データ保護、および構成に関する問題を検出できます。その結果、Google Cloud NetApp Volumesストレージプールを最適化するための正確な洞察と推奨事項を受け取ることができます。</block>
-  <block id="0368421628656695faa02aba1e7fafc6" category="paragraph">日々の分析が完了すると、適切に設計されたダッシュボードには、適切に設計されたリソースの総数、クリティカル状態にあるリソースの数、および警告状態にあるリソースの数が表示されます。構成は、信頼性、運用上の卓越性、コスト最適化、パフォーマンス効率、セキュリティという、適切に設計されたフレームワークの柱となる要素によって分類されます。ダッシュボードには、すべての構成を一覧表示する表も含まれています。各構成について、表には以下が示されます。</block>
-  <block id="1ea595e897db3a6c2ebf632b09f893a7" category="list-text">ウェルアーキテクテッドステータス</block>
-  <block id="88fc175a314d22757d9562f6ca85f39c" category="list-text">深刻度</block>
-  <block id="80b1ec0e89bd7572cc1f804e7b6589d5" category="list-text">カテゴリー</block>
-  <block id="8c4ac5176555925ce14fd3b1be3c8cb1" category="list-text">リソースの種類（ボリュームまたはストレージプール）</block>
-  <block id="90965760f6e212d3c1adb1ae943da7b4" category="list-text">影響を受けるリソース</block>
-  <block id="3b8bdf195417f71fd13dc074d454c9d1" category="list-text">設定が最適化されていない場合に推奨事項を表示するオプション</block>
   <block id="d1eb4860a9f8c5e03980d78b93e3c145" category="paragraph">オプションで、<block ref="c3c5eb7aac1d65e20d3c0a3a1b74a986" category="inline-image-macro-rx" type="image"></block>を選択して、すべての構成に関する推奨事項のCSVファイルをダウンロードします。</block>
   <block id="969bb8c9e1608f3c46000b160dbf8c50" category="paragraph">NetApp Workload Factory は、お客様が使用するストレージタイプに適した適切に設計されたフレームワークに準拠した、信頼性が高く、安全で、効率的かつ対費用効果の高い構成を維持および運用するのに役立ちます。NetApp Console の適切に設計されたダッシュボードは、アカウントとリージョンにわたる統合ビューを提供し、チームがリスクを特定して優先順位付けするのに役立ち、特定の要件に応じたカスタムルールをサポートします。ストレージシステムの構成を毎日自動的にスキャンすることで、ストレージ環境を最適化するためのインサイトと推奨事項が得られます。</block>
   <block id="a081c06e09e507c759e7f4cce85691e2" category="paragraph">NetApp Workload Factoryは、お客様の構成を毎日分析します。この分析では、ストレージ環境を最適化するために役立つ、適切なアーキテクチャに基づいた現状分析、洞察、および推奨事項を提供します。</block>
@@ -701,4 +677,41 @@
   <block id="54675850f07c5f375dabbd24ce963055" category="paragraph">Cloud Volumes ONTAP に関連付けられたコンソールエージェントが、以下のエンドポイントにアクセスできることを確認してください。</block>
   <block id="76a31cd6a7131cd21109cee81fd94902" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block>または<block ref="1c85a9585130a3e66370d665193250bb" category="inline-link-macro-rx"></block>を使用して、ファイルシステムとNetApp Console間の接続を設定します。</block>
   <block id="5be624540f07772a5d8aaac43ebbcfa8" category="list-text">ファイルシステムリソースの最も包括的な分析を行うには、<block ref="820a9225e29d6d4b9bc54d71d1eeb569" category="inline-link-macro-rx"></block>または<block ref="773b862b73888ba0f103d451af29397c" category="inline-link-macro-rx"></block>する必要があります。</block>
+  <block id="19d5fea6cca3df1f610ffd920f1e30b2" category="doc">Workload FactoryでFlex Unifiedのリソースを検出する</block>
+  <block id="61822363118e61bff0df1e874d2e7497" category="paragraph">Workload Factory は、ONTAP API プロキシエンドポイントを通じて、Google Cloud NetApp Volumes Flex Unified のデフォルトモードおよび ONTAP モードのストレージプールとボリュームを検出できるようになりました。これらのリソースはインベントリに表示され、適切に設計された評価と推奨事項に含まれています。</block>
+  <block id="5fb7119ce8f0dab345a73e06727b5f5c" category="inline-link-macro">Google Cloud NetApp Volumes の構成分析について</block>
+  <block id="ea078abe6abe4c4449bf21e417cc9323" category="paragraph"><block ref="ea078abe6abe4c4449bf21e417cc9323" category="inline-link-macro-rx"></block></block>
+  <block id="eba97ed9f5ee5fe9de4cc6c142ab99f3" category="section-title">NetApp Console Canvas から Flex Unified システムを入力する</block>
+  <block id="75d6eeccb13e55d1719bbc0e46902abb" category="paragraph">検出された Google Cloud NetApp Volumes Flex Unified システムに対して、NetApp Console Canvas から「*システムに入る*」を選択できるようになりました。これにより、選択したシステムのリソースページが開き、デフォルトモードのシステムで使用できるのと同じワークフローを使用して、関連付けられているストレージプールとボリュームを表示できます。</block>
+  <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">Flex Unified リソースのウェルアーキテクテッド評価</block>
+  <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">優れたアーキテクチャのダッシュボードは、Google Cloud NetApp Volumes Flex の統合ストレージプールとボリュームについて、SSD 容量のヘッドルーム、ボリューム容量のヘッドルーム、およびスナップショットポリシーの適用範囲を評価するようになりました。結果は Google Cloud NetApp Volumes の優れたアーキテクチャエクスペリエンスに表示され、Default モードまたは ONTAP モードのリソースを識別します。</block>
+  <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">適切に設計された問題に関する通知は、NetApp Console のストレージ管理システムページから Google Cloud NetApp Volumes で利用できます。この機能を使用すると、Google Cloud NetApp Volumes システムの設定上の問題を迅速に特定し、通知からワークロードの適切に設計されたダッシュボードに移動できます。</block>
+  <block id="677aeb7441cfb06ed7138c57338cfd53" category="paragraph">ルールを保存またはスケジュールする前に、テストを実行して、どのリソースに影響するかを確認してください。</block>
+  <block id="cdac1db1869db85a5ed349854c63c6bf" category="paragraph">ルールを検証したら、下書きとして保存するか、定期的に実行するように設定できます。</block>
+  <block id="9c85906f54c1b8a93d6470f07300ddfa" category="list-text">検証後にスケジュール設定せずに保存するには、*下書きとして保存*を選択してください。ルールは保存されますが、スケジュールされるまでは評価されません。</block>
+  <block id="e65512a782af7ef5675975930ca3bd4f" category="paragraph">よく設計されたダッシュボード（NetApp Console）は、ストレージシステムの設定を定期的にチェックし、潜在的な問題がないか確認します。問題が見つかった場合は、その内容と解決方法が表示され、Flex Unified Google Cloud NetApp Volumes環境のデフォルトモードとONTAPモードの両方で、ストレージシステムが適切に動作し、コストを管理し、ベストプラクティスに従うことができるようになります。</block>
+  <block id="2801dcf3181a6f2a2f56bb01459e50a4" category="paragraph">Workload Factory は、ストレージおよび ONTAP のベストプラクティスと Google Cloud Well-Architected Framework に基づいて、ストレージ構成を評価します。この評価では、ONTAP API プロキシエンドポイントを通じて検出された Google Cloud NetApp Volumes のデフォルトモードリソースおよび Flex Unified リソースに関する改善点も推奨します。</block>
+  <block id="8a5f3966b3513f7e2233e10a7facba12" category="paragraph">適切に設計された分析では、構成をフレームワークの次の柱、すなわち「信頼性」と「運用上の卓越性」に分類します。評価結果には、_Default-mode_ または _ONTAP-mode_ のモード値が含まれる場合があります。</block>
+  <block id="4eb5fd24694777ef00d310821aaa6543" category="paragraph">構成分析のインサイトと推奨事項を活用して、NetApp を使用し、Google Cloud ストレージ上で動作する Google Cloud NetApp Volumes のストレージプールとボリュームにベストプラクティスを実装できます。適切に設計された状態を簡単に確認したり、構成上の問題点を把握したり、信頼性、セキュリティ、パフォーマンス、コストの面で最適化されていないリソースのアーキテクチャを改善するための推奨事項を入手したりできます。</block>
+  <block id="9d5147b9cfa37007dd174357eb0032b3" category="paragraph">Google Cloud NetApp Volumes のストレージプールとボリュームデプロイメントは、Google Cloud において毎日分析されます。日々の分析では、適切なアーキテクチャの状態、構成上の問題点を理解するための洞察や推奨事項が提供され、リソースがベストプラクティスに準拠できるよう支援します。</block>
+  <block id="740099b5bc77c1731340e1bc44cb9c60" category="paragraph">日々の分析が完了すると、ダッシュボードには、適切に設計されたリソースの総数、クリティカル状態にあるリソースの数、および警告状態にあるリソースの数が表示されます。構成は、信頼性、運用効率、コスト最適化、パフォーマンス効率、セキュリティという、適切に設計されたフレームワークの柱となる要素に基づいて分類されます。ダッシュボードには、すべての構成、それらの構成の適切なアーキテクチャの状態、重要度、カテゴリ、リソースの種類（ボリュームまたはストレージプール）、影響を受けるリソース、および構成が最適化されていない場合に推奨事項を表示するオプションを一覧表示する表も含まれています。これには、Default モードと ONTAP モードが含まれます。</block>
+  <block id="ff5a2e898f3cd314dc92f7cfc32fde17" category="paragraph">Flex Unified環境の場合、推奨事項には、ストレージプールのSSD容量のヘッドルーム、ボリュームの容量のヘッドルーム、およびボリュームのスナップショットポリシーの適用範囲などが含まれます。</block>
+  <block id="007cc9547ae8884ad597cd92ba505422" category="list-text">重大度</block>
+  <block id="29f24526b8a15162c1cb976fa37f20d2" category="list-text">ルールの重要度レベル（警告、重大など）。</block>
+  <block id="b6e0b0c90cfbddfe767f137f8066d1df" category="list-text">実行中</block>
+  <block id="d4008ffe54f55490997ab0d5940aafb3" category="list-text">ルールの作成または確認。</block>
+  <block id="b75ff201f3276decaffcefb7b216622f" category="list-text">作成に失敗しました</block>
+  <block id="81b502eadde262c25792a2be1e3b3626" category="list-text">ルールを作成できませんでした。</block>
+  <block id="c4e6fec5ee0f22a348768aa087f15acb" category="list-text">保存済みですが、まだスケジュール設定されていません。</block>
+  <block id="7401c14d073cd1188b475ef7f5e0cdc8" category="list-text">検証済みドラフト</block>
+  <block id="de28b803b960b2c037e1abe4d18cf9d7" category="list-text">検証に合格しました。保存またはスケジュール設定が可能です。</block>
+  <block id="cf61937578a34d9f00c4f6dd6f175c05" category="list-text">アクティブであり、定義されたスケジュールに従って実行されます。</block>
+  <block id="ca7e0b16936fbee3bd2dd7f992b32b4d" category="list-text">一時停止中ですが、削除はされていません。再度有効化できます。</block>
+  <block id="71e78f13c09017bc4b63f46243d379b7" category="list-text">完全に削除されました。</block>
+  <block id="756da7df6941fe78c43bd929d17f5b4c" category="paragraph">ルールカタログは、すべてのカスタムルールを管理できる場所です。ルールの詳細を確認したり、結果をチェックしたり、ルールをスケジュールに基づいて実行するかどうかを制御したりできます。</block>
+  <block id="218354993137c1ab05ff800f7d8fc484" category="section-title">ルールと実行状況を理解する</block>
+  <block id="6e03454840286802ffb1cb92ef134388" category="paragraph">ルールカタログには、ルールの状態と実行状態の両方が表示されます。</block>
+  <block id="7eb618243aa6361c56c0556d8db7c199" category="list-text">ルールステータス</block>
+  <block id="1daa462cc0aa2997ad7248e918251f5f" category="list-text">*ドラフト*とは、ルールは保存されているが、まだスケジュールされていないことを意味します。*進行中*とは、ルールが作成中または検証中であることを意味します。*スケジュール済み*とは、ルールが有効であり、設定されたスケジュールに従って実行されることを意味します。*一時停止*とは、ルールがカタログに残っているものの、実行されないことを意味します。*作成に失敗しました*とは、ルールが完了しておらず、保存する前にチャットで更新する必要があることを意味します。</block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
 </blocks>

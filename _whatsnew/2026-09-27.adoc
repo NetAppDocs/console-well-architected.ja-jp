@@ -1,0 +1,37 @@
+= Workload FactoryでFlex Unifiedのリソースを検出する
+:allow-uri-read: 
+
+
+
+
+[[discover-flex-unified-resources-in-workload-factory]]
+=== Workload FactoryでFlex Unifiedのリソースを検出する
+
+Workload Factory は、ONTAP API プロキシエンドポイントを通じて、Google Cloud NetApp Volumes Flex Unified のデフォルトモードおよび ONTAP モードのストレージプールとボリュームを検出できるようになりました。これらのリソースはインベントリに表示され、適切に設計された評価と推奨事項に含まれています。
+
+link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Google Cloud NetApp Volumes の構成分析について"]
+
+
+
+[[enter-flex-unified-systems-from-netapp-console-canvas]]
+=== NetApp Console Canvas から Flex Unified システムを入力する
+
+検出された Google Cloud NetApp Volumes Flex Unified システムに対して、NetApp Console Canvas から「*システムに入る*」を選択できるようになりました。これにより、選択したシステムのリソースページが開き、デフォルトモードのシステムで使用できるのと同じワークフローを使用して、関連付けられているストレージプールとボリュームを表示できます。
+
+link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Google Cloud NetApp Volumes の構成分析について"]
+
+
+
+[[well-architected-assessments-for-flex-unified-resources]]
+=== Flex Unified リソースのウェルアーキテクテッド評価
+
+優れたアーキテクチャのダッシュボードは、Google Cloud NetApp Volumes Flex の統合ストレージプールとボリュームについて、SSD 容量のヘッドルーム、ボリューム容量のヘッドルーム、およびスナップショットポリシーの適用範囲を評価するようになりました。結果は Google Cloud NetApp Volumes の優れたアーキテクチャエクスペリエンスに表示され、Default モードまたは ONTAP モードのリソースを識別します。
+
+link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Google Cloud NetApp Volumes の構成分析について"]
+
+
+
+[[well-architected-issues-displayed-in-netapp-console-systems-page]]
+=== 適切に設計された問題が、NetApp Console のシステムページに表示されます
+
+適切に設計された問題に関する通知は、NetApp Console のストレージ管理システムページから Google Cloud NetApp Volumes で利用できます。この機能を使用すると、Google Cloud NetApp Volumes システムの設定上の問題を迅速に特定し、通知からワークロードの適切に設計されたダッシュボードに移動できます。

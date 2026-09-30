@@ -11,7 +11,7 @@ summary: NetApp Console は、ストレージシステムの構成を定期的�
 
 
 [role="lead"]
-Workload Factoryは、ストレージシステムの構成を定期的に分析し、構成上の問題がないかどうかを判断します。問題が見つかった場合、NetApp Consoleのwell-architectedダッシュボードに問題点が表示され、ストレージシステムが最高のパフォーマンス、対費用効果の高い、およびベストプラクティスへの準拠を達成するために変更が必要な内容が説明されます。
+よく設計されたダッシュボード（NetApp Console）は、ストレージシステムの設定を定期的にチェックし、潜在的な問題がないか確認します。問題が見つかった場合は、その内容と解決方法が表示され、Flex Unified Google Cloud NetApp Volumes環境のデフォルトモードとONTAPモードの両方で、ストレージシステムが適切に動作し、コストを管理し、ベストプラクティスに従うことができるようになります。
 
 主な機能は次のとおりです：
 
@@ -40,9 +40,9 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Go
 [[best-practices-and-recommendations-for-storage-workloads]]
 == ストレージワークロードに関するベストプラクティスと推奨事項
 
-Workload Factory は、ストレージおよび ONTAP のベストプラクティスと Google Cloud Well-Architected Framework に照らして、ストレージ構成を評価します。評価では、改善点も提案されます。
+Workload Factory は、ストレージおよび ONTAP のベストプラクティスと Google Cloud Well-Architected Framework に基づいて、ストレージ構成を評価します。この評価では、ONTAP API プロキシエンドポイントを通じて検出された Google Cloud NetApp Volumes のデフォルトモードリソースおよび Flex Unified リソースに関する改善点も推奨します。
 
-適切に設計された分析では、構成をフレームワークの次の柱、すなわち_信頼性_と_運用上の卓越性_に分類します。
+適切に設計された分析では、構成をフレームワークの次の柱、すなわち「信頼性」と「運用上の卓越性」に分類します。評価結果には、_Default-mode_ または _ONTAP-mode_ のモード値が含まれる場合があります。
 
 
 
