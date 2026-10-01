@@ -713,5 +713,5 @@
   <block id="6e03454840286802ffb1cb92ef134388" category="paragraph">ルールカタログには、ルールの状態と実行状態の両方が表示されます。</block>
   <block id="7eb618243aa6361c56c0556d8db7c199" category="list-text">ルールステータス</block>
   <block id="1daa462cc0aa2997ad7248e918251f5f" category="list-text">*ドラフト*とは、ルールは保存されているが、まだスケジュールされていないことを意味します。*進行中*とは、ルールが作成中または検証中であることを意味します。*スケジュール済み*とは、ルールが有効であり、設定されたスケジュールに従って実行されることを意味します。*一時停止*とは、ルールがカタログに残っているものの、実行されないことを意味します。*作成に失敗しました*とは、ルールが完了しておらず、保存する前にチャットで更新する必要があることを意味します。</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026年9月30日</block>
 </blocks>
